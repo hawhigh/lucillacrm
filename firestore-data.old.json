@@ -1,0 +1,2907 @@
+[
+  {
+    "userId": "LRGtkAUhk8dXXEWzbbomIByUtRE2",
+    "userData": {
+      "createdAt": "2025-12-18T23:42:04.133Z",
+      "email": "user@garsia.sk",
+      "role": "admin"
+    },
+    "invoices": [
+      {
+        "id": "inv-001",
+        "data": {
+          "issueDate": "2025-01-15",
+          "supplier": {
+            "name": "Garsia s.r.o."
+          },
+          "number": "INV-2025-001",
+          "status": "Paid",
+          "customer": {
+            "email": "contact@techsolutions.sk",
+            "name": "TechSolutions s.r.o.",
+            "country": "Slovensko",
+            "addressLine1": "Inovačná 1",
+            "city": "Košice",
+            "icDph": "SK2021123456",
+            "ico": "12345678",
+            "zip": "040 01",
+            "id": "sample-customer-1",
+            "dic": "2021123456"
+          },
+          "items": [
+            {
+              "unitPrice": 80,
+              "vatRate": 20,
+              "quantity": 10,
+              "description": "Consulting Services"
+            },
+            {
+              "vatRate": 20,
+              "description": "Software License",
+              "unitPrice": 200,
+              "quantity": 1
+            }
+          ],
+          "id": "inv-001",
+          "variableSymbol": "2025001",
+          "dueDate": "2025-01-29",
+          "constantSymbol": "0308",
+          "deliveryDate": "2025-01-15"
+        }
+      },
+      {
+        "id": "inv-002",
+        "data": {
+          "status": "Sent",
+          "variableSymbol": "2025002",
+          "deliveryDate": "2025-02-01",
+          "number": "INV-2025-002",
+          "constantSymbol": "0308",
+          "items": [
+            {
+              "unitPrice": 150,
+              "vatRate": 20,
+              "quantity": 1,
+              "description": "Monthly Maintenance"
+            }
+          ],
+          "supplier": {
+            "name": "Garsia s.r.o."
+          },
+          "customer": {
+            "name": "TechSolutions s.r.o.",
+            "city": "Košice",
+            "country": "Slovensko",
+            "id": "sample-customer-1",
+            "addressLine1": "Inovačná 1",
+            "icDph": "SK2021123456",
+            "ico": "12345678",
+            "email": "contact@techsolutions.sk",
+            "dic": "2021123456",
+            "zip": "040 01"
+          },
+          "id": "inv-002",
+          "dueDate": "2025-02-15",
+          "issueDate": "2025-02-01"
+        }
+      }
+    ],
+    "customers": [
+      {
+        "id": "sample-customer-1",
+        "data": {
+          "id": "sample-customer-1",
+          "dic": "2021123456",
+          "country": "Slovensko",
+          "city": "Košice",
+          "zip": "040 01",
+          "email": "contact@techsolutions.sk",
+          "name": "TechSolutions s.r.o.",
+          "icDph": "SK2021123456",
+          "ico": "12345678",
+          "addressLine1": "Inovačná 1"
+        }
+      }
+    ],
+    "expenses": [],
+    "quotes": [],
+    "products": []
+  },
+  {
+    "userId": "uOhqQ8AgGXNVub1xZ3mxjpGJtqi1",
+    "userData": {
+      "createdAt": "2025-12-18T23:42:02.043Z",
+      "email": "admin@garsia.sk",
+      "role": "user"
+    },
+    "invoices": [
+      {
+        "id": "229aytm1m",
+        "data": {
+          "issueDate": "2025-07-25",
+          "dueDate": "2025-07-25",
+          "id": "229aytm1m",
+          "supplier": {
+            "zip": "11111",
+            "country": "SK",
+            "city": "My City",
+            "addressLine1": "My St",
+            "name": "My Company"
+          },
+          "number": "INV-2025-008",
+          "deliveryDate": "2025-07-25",
+          "items": [
+            {
+              "description": "Service Fee",
+              "unitPrice": 154,
+              "unit": "ks",
+              "vatRate": 20,
+              "quantity": 1
+            },
+            {
+              "quantity": 8,
+              "vatRate": 20,
+              "unit": "h",
+              "unitPrice": 50,
+              "description": "Consulting"
+            }
+          ],
+          "customer": {
+            "name": "DesignStudio x",
+            "zip": "12345",
+            "addressLine1": "Test St",
+            "city": "Test City",
+            "id": "qVHVORyfSKYo9BhTPD2p",
+            "email": "test@test.com",
+            "country": "SK"
+          },
+          "status": "Paid"
+        }
+      },
+      {
+        "id": "4p5re47bl",
+        "data": {
+          "status": "Paid",
+          "id": "4p5re47bl",
+          "dueDate": "2025-12-03",
+          "deliveryDate": "2025-12-03",
+          "items": [
+            {
+              "quantity": 1,
+              "unitPrice": 542,
+              "vatRate": 20,
+              "description": "Service Fee",
+              "unit": "ks"
+            },
+            {
+              "vatRate": 20,
+              "unitPrice": 50,
+              "quantity": 8,
+              "description": "Consulting",
+              "unit": "h"
+            }
+          ],
+          "customer": {
+            "email": "test@test.com",
+            "addressLine1": "Test St",
+            "city": "Test City",
+            "name": "Green Foods",
+            "zip": "12345",
+            "id": "cWN1fqSMBCs0YqNDRcuI",
+            "country": "SK"
+          },
+          "number": "INV-2025-001",
+          "supplier": {
+            "country": "SK",
+            "addressLine1": "My St",
+            "city": "My City",
+            "zip": "11111",
+            "name": "My Company"
+          },
+          "issueDate": "2025-12-03"
+        }
+      },
+      {
+        "id": "6a6mww1wg",
+        "data": {
+          "dueDate": "2025-08-26",
+          "customer": {
+            "country": "SK",
+            "addressLine1": "Test St",
+            "id": "jpi26DEeAQRfWevzHupV",
+            "city": "Test City",
+            "zip": "12345",
+            "email": "test@test.com",
+            "name": "Web Wizards"
+          },
+          "deliveryDate": "2025-08-26",
+          "number": "INV-2025-009",
+          "id": "6a6mww1wg",
+          "issueDate": "2025-08-26",
+          "supplier": {
+            "zip": "11111",
+            "country": "SK",
+            "city": "My City",
+            "addressLine1": "My St",
+            "name": "My Company"
+          },
+          "status": "Sent",
+          "items": [
+            {
+              "quantity": 1,
+              "vatRate": 20,
+              "unit": "ks",
+              "description": "Service Fee",
+              "unitPrice": 285
+            },
+            {
+              "unit": "h",
+              "vatRate": 20,
+              "unitPrice": 50,
+              "description": "Consulting",
+              "quantity": 9
+            }
+          ]
+        }
+      },
+      {
+        "id": "99utobbjz",
+        "data": {
+          "id": "99utobbjz",
+          "dueDate": "2025-11-28",
+          "customer": {
+            "city": "Test City",
+            "country": "SK",
+            "zip": "12345",
+            "email": "test@test.com",
+            "name": "Logistics Plus",
+            "addressLine1": "Test St",
+            "id": "Ymanmzj5RXFymNlQE8eo"
+          },
+          "number": "INV-2025-008",
+          "status": "Paid",
+          "supplier": {
+            "city": "My City",
+            "country": "SK",
+            "zip": "11111",
+            "addressLine1": "My St",
+            "name": "My Company"
+          },
+          "deliveryDate": "2025-11-28",
+          "items": [
+            {
+              "unitPrice": 128,
+              "unit": "ks",
+              "quantity": 1,
+              "vatRate": 20,
+              "description": "Service Fee"
+            },
+            {
+              "description": "Consulting",
+              "vatRate": 20,
+              "unitPrice": 50,
+              "unit": "h",
+              "quantity": 9
+            }
+          ],
+          "issueDate": "2025-11-28"
+        }
+      },
+      {
+        "id": "9e2ny945m",
+        "data": {
+          "customer": {
+            "city": "Test City",
+            "name": "Web Wizards",
+            "country": "SK",
+            "zip": "12345",
+            "addressLine1": "Test St",
+            "email": "test@test.com",
+            "id": "jpi26DEeAQRfWevzHupV"
+          },
+          "dueDate": "2025-10-05",
+          "issueDate": "2025-10-05",
+          "number": "INV-2025-010",
+          "status": "Sent",
+          "supplier": {
+            "zip": "11111",
+            "city": "My City",
+            "name": "My Company",
+            "country": "SK",
+            "addressLine1": "My St"
+          },
+          "deliveryDate": "2025-10-05",
+          "items": [
+            {
+              "quantity": 1,
+              "unit": "ks",
+              "unitPrice": 592,
+              "description": "Service Fee",
+              "vatRate": 20
+            },
+            {
+              "vatRate": 20,
+              "quantity": 10,
+              "unitPrice": 50,
+              "description": "Consulting",
+              "unit": "h"
+            }
+          ],
+          "id": "9e2ny945m"
+        }
+      },
+      {
+        "id": "dlx7bjaym",
+        "data": {
+          "dueDate": "2025-12-13",
+          "issueDate": "2025-12-13",
+          "status": "Paid",
+          "deliveryDate": "2025-12-13",
+          "id": "dlx7bjaym",
+          "supplier": {
+            "zip": "11111",
+            "addressLine1": "My St",
+            "country": "SK",
+            "name": "My Company",
+            "city": "My City"
+          },
+          "items": [
+            {
+              "quantity": 1,
+              "unit": "ks",
+              "vatRate": 20,
+              "unitPrice": 534,
+              "description": "Service Fee"
+            },
+            {
+              "description": "Consulting",
+              "unit": "h",
+              "vatRate": 20,
+              "unitPrice": 50,
+              "quantity": 6
+            }
+          ],
+          "customer": {
+            "name": "TechCorp s.r.o.",
+            "city": "Test City",
+            "addressLine1": "Test St",
+            "email": "test@test.com",
+            "country": "SK",
+            "id": "QjDLSMTDLPuYEIgNSL7m",
+            "zip": "12345"
+          },
+          "number": "INV-2025-004"
+        }
+      },
+      {
+        "id": "iti6y6qod",
+        "data": {
+          "deliveryDate": "2025-10-05",
+          "number": "INV-2025-006",
+          "id": "iti6y6qod",
+          "status": "Paid",
+          "issueDate": "2025-10-05",
+          "items": [
+            {
+              "vatRate": 20,
+              "unitPrice": 260,
+              "description": "Service Fee",
+              "quantity": 1,
+              "unit": "ks"
+            },
+            {
+              "description": "Consulting",
+              "quantity": 8,
+              "vatRate": 20,
+              "unitPrice": 50,
+              "unit": "h"
+            }
+          ],
+          "customer": {
+            "addressLine1": "Test St",
+            "email": "test@test.com",
+            "name": "DevHouse Ltd",
+            "country": "SK",
+            "id": "LrvXtjQIuHVI7aicHhs5",
+            "zip": "12345",
+            "city": "Test City"
+          },
+          "supplier": {
+            "addressLine1": "My St",
+            "name": "My Company",
+            "city": "My City",
+            "country": "SK",
+            "zip": "11111"
+          },
+          "dueDate": "2025-10-05"
+        }
+      },
+      {
+        "id": "kpe378vlq",
+        "data": {
+          "supplier": {
+            "country": "SK",
+            "city": "My City",
+            "addressLine1": "My St",
+            "zip": "11111",
+            "name": "My Company"
+          },
+          "items": [
+            {
+              "vatRate": 20,
+              "description": "Service Fee",
+              "unitPrice": 288,
+              "unit": "ks",
+              "quantity": 1
+            },
+            {
+              "vatRate": 20,
+              "unit": "h",
+              "description": "Consulting",
+              "unitPrice": 50,
+              "quantity": 7
+            }
+          ],
+          "deliveryDate": "2025-12-28",
+          "dueDate": "2025-12-28",
+          "issueDate": "2025-12-28",
+          "number": "INV-2025-002",
+          "customer": {
+            "email": "test@test.com",
+            "addressLine1": "Test St",
+            "country": "SK",
+            "name": "Coffee Roasters",
+            "zip": "12345",
+            "id": "8ZLPF1DN1fJvhz0rMPPY",
+            "city": "Test City"
+          },
+          "status": "Sent",
+          "id": "kpe378vlq"
+        }
+      },
+      {
+        "id": "l6hzgiyjg",
+        "data": {
+          "items": [
+            {
+              "vatRate": 20,
+              "unit": "ks",
+              "unitPrice": 244,
+              "quantity": 1,
+              "description": "Service Fee"
+            },
+            {
+              "unitPrice": 50,
+              "vatRate": 20,
+              "unit": "h",
+              "quantity": 3,
+              "description": "Consulting"
+            }
+          ],
+          "dueDate": "2025-09-08",
+          "status": "Paid",
+          "deliveryDate": "2025-09-08",
+          "supplier": {
+            "country": "SK",
+            "addressLine1": "My St",
+            "zip": "11111",
+            "city": "My City",
+            "name": "My Company"
+          },
+          "number": "INV-2025-009",
+          "customer": {
+            "country": "SK",
+            "id": "8ZLPF1DN1fJvhz0rMPPY",
+            "zip": "12345",
+            "addressLine1": "Test St",
+            "name": "Coffee Roasters",
+            "email": "test@test.com",
+            "city": "Test City"
+          },
+          "issueDate": "2025-09-08",
+          "id": "l6hzgiyjg"
+        }
+      },
+      {
+        "id": "l8ye0px74",
+        "data": {
+          "customer": {
+            "email": "test@test.com",
+            "name": "DevHouse Ltd",
+            "city": "Test City",
+            "addressLine1": "Test St",
+            "id": "iQufHEZI7V08myueo8F5",
+            "country": "SK",
+            "zip": "12345"
+          },
+          "deliveryDate": "2025-11-01",
+          "number": "INV-2025-005",
+          "supplier": {
+            "country": "SK",
+            "city": "My City",
+            "name": "My Company",
+            "zip": "11111",
+            "addressLine1": "My St"
+          },
+          "id": "l8ye0px74",
+          "issueDate": "2025-11-01",
+          "dueDate": "2025-11-01",
+          "status": "Sent",
+          "items": [
+            {
+              "quantity": 1,
+              "unitPrice": 190,
+              "vatRate": 20,
+              "unit": "ks",
+              "description": "Service Fee"
+            },
+            {
+              "vatRate": 20,
+              "unit": "h",
+              "unitPrice": 50,
+              "quantity": 3,
+              "description": "Consulting"
+            }
+          ]
+        }
+      },
+      {
+        "id": "lfjm4kp2i",
+        "data": {
+          "dueDate": "2025-10-26",
+          "number": "INV-2025-006",
+          "issueDate": "2025-10-26",
+          "customer": {
+            "email": "test@test.com",
+            "city": "Test City",
+            "addressLine1": "Test St",
+            "id": "QjDLSMTDLPuYEIgNSL7m",
+            "country": "SK",
+            "zip": "12345",
+            "name": "TechCorp s.r.o."
+          },
+          "deliveryDate": "2025-10-26",
+          "id": "lfjm4kp2i",
+          "supplier": {
+            "name": "My Company",
+            "country": "SK",
+            "zip": "11111",
+            "city": "My City",
+            "addressLine1": "My St"
+          },
+          "status": "Paid",
+          "items": [
+            {
+              "unitPrice": 320,
+              "quantity": 1,
+              "unit": "ks",
+              "description": "Service Fee",
+              "vatRate": 20
+            },
+            {
+              "unit": "h",
+              "description": "Consulting",
+              "vatRate": 20,
+              "unitPrice": 50,
+              "quantity": 2
+            }
+          ]
+        }
+      },
+      {
+        "id": "s313l1gjy",
+        "data": {
+          "deliveryDate": "2025-10-30",
+          "status": "Paid",
+          "id": "s313l1gjy",
+          "supplier": {
+            "addressLine1": "My St",
+            "country": "SK",
+            "name": "My Company",
+            "zip": "11111",
+            "city": "My City"
+          },
+          "number": "INV-2025-003",
+          "dueDate": "2025-10-30",
+          "customer": {
+            "city": "Test City",
+            "addressLine1": "Test St",
+            "email": "test@test.com",
+            "id": "iQufHEZI7V08myueo8F5",
+            "country": "SK",
+            "name": "DevHouse Ltd",
+            "zip": "12345"
+          },
+          "items": [
+            {
+              "description": "Service Fee",
+              "vatRate": 20,
+              "unitPrice": 242,
+              "quantity": 1,
+              "unit": "ks"
+            },
+            {
+              "unitPrice": 50,
+              "vatRate": 20,
+              "description": "Consulting",
+              "unit": "h",
+              "quantity": 10
+            }
+          ],
+          "issueDate": "2025-10-30"
+        }
+      },
+      {
+        "id": "tzaldzbz9",
+        "data": {
+          "dueDate": "2025-12-25",
+          "id": "tzaldzbz9",
+          "deliveryDate": "2025-12-25",
+          "issueDate": "2025-12-25",
+          "supplier": {
+            "country": "SK",
+            "addressLine1": "My St",
+            "city": "My City",
+            "zip": "11111",
+            "name": "My Company"
+          },
+          "items": [
+            {
+              "quantity": 1,
+              "unit": "ks",
+              "description": "Service Fee",
+              "vatRate": 20,
+              "unitPrice": 253
+            },
+            {
+              "quantity": 5,
+              "unitPrice": 50,
+              "vatRate": 20,
+              "unit": "h",
+              "description": "Consulting"
+            }
+          ],
+          "customer": {
+            "country": "SK",
+            "name": "Web Wizards",
+            "addressLine1": "Test St",
+            "id": "jpi26DEeAQRfWevzHupV",
+            "zip": "12345",
+            "email": "test@test.com",
+            "city": "Test City"
+          },
+          "status": "Sent",
+          "number": "INV-2025-007"
+        }
+      },
+      {
+        "id": "u4qzdw19r",
+        "data": {
+          "customer": {
+            "country": "SK",
+            "city": "Test City",
+            "zip": "12345",
+            "addressLine1": "Test St",
+            "id": "zG6apRWkl6NiRkOkg96G",
+            "name": "Web Wizards",
+            "email": "test@test.com"
+          },
+          "items": [
+            {
+              "unitPrice": 306,
+              "unit": "ks",
+              "description": "Service Fee",
+              "quantity": 1,
+              "vatRate": 20
+            },
+            {
+              "description": "Consulting",
+              "unit": "h",
+              "unitPrice": 50,
+              "quantity": 9,
+              "vatRate": 20
+            }
+          ],
+          "number": "INV-2025-007",
+          "id": "u4qzdw19r",
+          "supplier": {
+            "city": "My City",
+            "addressLine1": "My St",
+            "name": "My Company",
+            "country": "SK",
+            "zip": "11111"
+          },
+          "deliveryDate": "2025-08-22",
+          "status": "Paid",
+          "dueDate": "2025-08-22",
+          "issueDate": "2025-08-22"
+        }
+      },
+      {
+        "id": "u6szr2c23",
+        "data": {
+          "number": "INV-2025-003",
+          "customer": {
+            "email": "test@test.com",
+            "city": "Test City",
+            "country": "SK",
+            "name": "Web Wizards",
+            "zip": "12345",
+            "id": "jpi26DEeAQRfWevzHupV",
+            "addressLine1": "Test St"
+          },
+          "issueDate": "2025-10-06",
+          "items": [
+            {
+              "vatRate": 20,
+              "unit": "ks",
+              "quantity": 1,
+              "description": "Service Fee",
+              "unitPrice": 326
+            },
+            {
+              "vatRate": 20,
+              "unitPrice": 50,
+              "unit": "h",
+              "quantity": 8,
+              "description": "Consulting"
+            }
+          ],
+          "deliveryDate": "2025-10-06",
+          "id": "u6szr2c23",
+          "supplier": {
+            "zip": "11111",
+            "city": "My City",
+            "addressLine1": "My St",
+            "country": "SK",
+            "name": "My Company"
+          },
+          "status": "Paid",
+          "dueDate": "2025-10-06"
+        }
+      },
+      {
+        "id": "wgy7c7qeo",
+        "data": {
+          "customer": {
+            "zip": "12345",
+            "city": "Test City",
+            "name": "DesignStudio x",
+            "email": "test@test.com",
+            "country": "SK",
+            "id": "qVHVORyfSKYo9BhTPD2p",
+            "addressLine1": "Test St"
+          },
+          "number": "INV-2025-002",
+          "status": "Paid",
+          "deliveryDate": "2025-07-30",
+          "items": [
+            {
+              "vatRate": 20,
+              "unitPrice": 404,
+              "quantity": 1,
+              "unit": "ks",
+              "description": "Service Fee"
+            },
+            {
+              "description": "Consulting",
+              "quantity": 1,
+              "vatRate": 20,
+              "unit": "h",
+              "unitPrice": 50
+            }
+          ],
+          "dueDate": "2025-07-30",
+          "issueDate": "2025-07-30",
+          "id": "wgy7c7qeo",
+          "supplier": {
+            "zip": "11111",
+            "addressLine1": "My St",
+            "name": "My Company",
+            "city": "My City",
+            "country": "SK"
+          }
+        }
+      },
+      {
+        "id": "x4ixzc5u0",
+        "data": {
+          "status": "Paid",
+          "items": [
+            {
+              "vatRate": 20,
+              "unit": "ks",
+              "unitPrice": 131,
+              "description": "Service Fee",
+              "quantity": 1
+            },
+            {
+              "vatRate": 20,
+              "unit": "h",
+              "unitPrice": 50,
+              "quantity": 2,
+              "description": "Consulting"
+            }
+          ],
+          "id": "x4ixzc5u0",
+          "supplier": {
+            "zip": "11111",
+            "name": "My Company",
+            "country": "SK",
+            "addressLine1": "My St",
+            "city": "My City"
+          },
+          "issueDate": "2025-08-16",
+          "number": "INV-2025-001",
+          "dueDate": "2025-08-16",
+          "customer": {
+            "city": "Test City",
+            "id": "zFaxq064uXKnEyP1QTUt",
+            "zip": "12345",
+            "name": "DesignStudio x",
+            "country": "SK",
+            "addressLine1": "Test St",
+            "email": "test@test.com"
+          },
+          "deliveryDate": "2025-08-16"
+        }
+      },
+      {
+        "id": "xl7ly8zl1",
+        "data": {
+          "customer": {
+            "name": "TechCorp s.r.o.",
+            "country": "SK",
+            "city": "Test City",
+            "email": "test@test.com",
+            "addressLine1": "Test St",
+            "id": "QjDLSMTDLPuYEIgNSL7m",
+            "zip": "12345"
+          },
+          "status": "Paid",
+          "issueDate": "2025-07-11",
+          "supplier": {
+            "country": "SK",
+            "zip": "11111",
+            "addressLine1": "My St",
+            "city": "My City",
+            "name": "My Company"
+          },
+          "items": [
+            {
+              "quantity": 1,
+              "unitPrice": 548,
+              "unit": "ks",
+              "description": "Service Fee",
+              "vatRate": 20
+            },
+            {
+              "description": "Consulting",
+              "vatRate": 20,
+              "unit": "h",
+              "unitPrice": 50,
+              "quantity": 7
+            }
+          ],
+          "dueDate": "2025-07-11",
+          "number": "INV-2025-010",
+          "deliveryDate": "2025-07-11",
+          "id": "xl7ly8zl1"
+        }
+      },
+      {
+        "id": "yr7goo5u7",
+        "data": {
+          "deliveryDate": "2025-09-07",
+          "id": "yr7goo5u7",
+          "number": "INV-2025-005",
+          "supplier": {
+            "addressLine1": "My St",
+            "country": "SK",
+            "zip": "11111",
+            "city": "My City",
+            "name": "My Company"
+          },
+          "items": [
+            {
+              "quantity": 1,
+              "description": "Service Fee",
+              "vatRate": 20,
+              "unitPrice": 336,
+              "unit": "ks"
+            },
+            {
+              "description": "Consulting",
+              "unit": "h",
+              "quantity": 1,
+              "vatRate": 20,
+              "unitPrice": 50
+            }
+          ],
+          "dueDate": "2025-09-07",
+          "customer": {
+            "zip": "12345",
+            "city": "Test City",
+            "addressLine1": "Test St",
+            "country": "SK",
+            "email": "test@test.com",
+            "name": "Marketing Pro",
+            "id": "KbXJwqm5L3kLCYRJGgKF"
+          },
+          "status": "Paid",
+          "issueDate": "2025-09-07"
+        }
+      },
+      {
+        "id": "zn1jw3oxw",
+        "data": {
+          "dueDate": "2025-12-24",
+          "issueDate": "2025-12-24",
+          "items": [
+            {
+              "unit": "ks",
+              "description": "Service Fee",
+              "quantity": 1,
+              "vatRate": 20,
+              "unitPrice": 273
+            },
+            {
+              "description": "Consulting",
+              "unitPrice": 50,
+              "unit": "h",
+              "vatRate": 20,
+              "quantity": 1
+            }
+          ],
+          "customer": {
+            "city": "Test City",
+            "name": "Coffee Roasters",
+            "addressLine1": "Test St",
+            "country": "SK",
+            "email": "test@test.com",
+            "id": "DCexCEQR6ZLR6aCCStDa",
+            "zip": "12345"
+          },
+          "status": "Sent",
+          "id": "zn1jw3oxw",
+          "supplier": {
+            "addressLine1": "My St",
+            "zip": "11111",
+            "city": "My City",
+            "name": "My Company",
+            "country": "SK"
+          },
+          "deliveryDate": "2025-12-24",
+          "number": "INV-2025-004"
+        }
+      }
+    ],
+    "customers": [
+      {
+        "id": "7321Zh4f8mcbDbDeOiB0",
+        "data": {
+          "ico": "66554433",
+          "city": "Banská Bystrica",
+          "addressLine1": "Sample Street 123",
+          "email": "contact@legaladvisors.sk",
+          "name": "Legal Advisors",
+          "dic": "202266554433",
+          "zip": "000 00",
+          "icDph": "SK202266554433",
+          "country": "Slovakia",
+          "id": "7321Zh4f8mcbDbDeOiB0"
+        }
+      },
+      {
+        "id": "8ZLPF1DN1fJvhz0rMPPY",
+        "data": {
+          "country": "Slovakia",
+          "zip": "000 00",
+          "ico": "11223344",
+          "addressLine1": "Sample Street 123",
+          "id": "8ZLPF1DN1fJvhz0rMPPY",
+          "dic": "202211223344",
+          "name": "Coffee Roasters",
+          "icDph": "SK202211223344",
+          "email": "contact@coffeeroasters.sk",
+          "city": "Nitra"
+        }
+      },
+      {
+        "id": "Cj8CPfMaM8EHXiKklsEW",
+        "data": {
+          "email": "contact@autoservisfast.sk",
+          "zip": "000 00",
+          "addressLine1": "Sample Street 123",
+          "country": "Slovakia",
+          "icDph": "SK202222334455",
+          "id": "Cj8CPfMaM8EHXiKklsEW",
+          "ico": "22334455",
+          "name": "AutoServis Fast",
+          "dic": "202222334455",
+          "city": "Prešov"
+        }
+      },
+      {
+        "id": "DCexCEQR6ZLR6aCCStDa",
+        "data": {
+          "name": "Coffee Roasters",
+          "email": "contact@coffeeroasters.sk",
+          "zip": "000 00",
+          "id": "DCexCEQR6ZLR6aCCStDa",
+          "icDph": "SK202211223344",
+          "city": "Nitra",
+          "dic": "202211223344",
+          "country": "Slovakia",
+          "addressLine1": "Sample Street 123",
+          "ico": "11223344"
+        }
+      },
+      {
+        "id": "DYBPMBiWxtTCWr6Ed05o",
+        "data": {
+          "id": "DYBPMBiWxtTCWr6Ed05o",
+          "dic": "202266554433",
+          "country": "Slovakia",
+          "city": "Banská Bystrica",
+          "name": "Legal Advisors",
+          "ico": "66554433",
+          "email": "contact@legaladvisors.sk",
+          "icDph": "SK202266554433",
+          "zip": "000 00",
+          "addressLine1": "Sample Street 123"
+        }
+      },
+      {
+        "id": "KbXJwqm5L3kLCYRJGgKF",
+        "data": {
+          "ico": "99887766",
+          "addressLine1": "Sample Street 123",
+          "zip": "000 00",
+          "email": "contact@marketingpro.sk",
+          "dic": "202299887766",
+          "id": "KbXJwqm5L3kLCYRJGgKF",
+          "city": "Trnava",
+          "name": "Marketing Pro",
+          "icDph": "SK202299887766",
+          "country": "Slovakia"
+        }
+      },
+      {
+        "id": "LrvXtjQIuHVI7aicHhs5",
+        "data": {
+          "ico": "55667788",
+          "id": "LrvXtjQIuHVI7aicHhs5",
+          "city": "Žilina",
+          "icDph": "SK202255667788",
+          "dic": "202255667788",
+          "email": "contact@devhouseltd.sk",
+          "name": "DevHouse Ltd",
+          "country": "Slovakia",
+          "zip": "000 00",
+          "addressLine1": "Sample Street 123"
+        }
+      },
+      {
+        "id": "QjDLSMTDLPuYEIgNSL7m",
+        "data": {
+          "zip": "000 00",
+          "ico": "12345678",
+          "name": "TechCorp s.r.o.",
+          "country": "Slovakia",
+          "city": "Bratislava",
+          "addressLine1": "Sample Street 123",
+          "icDph": "SK202212345678",
+          "email": "contact@techcorps.r.o..sk",
+          "id": "QjDLSMTDLPuYEIgNSL7m",
+          "dic": "202212345678"
+        }
+      },
+      {
+        "id": "YMFjVcXj4iOElAIP8EOJ",
+        "data": {
+          "email": "contact@techcorps.r.o..sk",
+          "city": "Bratislava",
+          "name": "TechCorp s.r.o.",
+          "icDph": "SK202212345678",
+          "country": "Slovakia",
+          "id": "YMFjVcXj4iOElAIP8EOJ",
+          "zip": "000 00",
+          "ico": "12345678",
+          "dic": "202212345678",
+          "addressLine1": "Sample Street 123"
+        }
+      },
+      {
+        "id": "YbPeZdKGaMegAGR9HnI8",
+        "data": {
+          "addressLine1": "Sample Street 123",
+          "name": "AutoServis Fast",
+          "ico": "22334455",
+          "city": "Prešov",
+          "zip": "000 00",
+          "email": "contact@autoservisfast.sk",
+          "country": "Slovakia",
+          "icDph": "SK202222334455",
+          "dic": "202222334455",
+          "id": "YbPeZdKGaMegAGR9HnI8"
+        }
+      },
+      {
+        "id": "Ymanmzj5RXFymNlQE8eo",
+        "data": {
+          "zip": "000 00",
+          "name": "Logistics Plus",
+          "id": "Ymanmzj5RXFymNlQE8eo",
+          "ico": "77889900",
+          "email": "contact@logisticsplus.sk",
+          "dic": "202277889900",
+          "city": "Senec",
+          "country": "Slovakia",
+          "icDph": "SK202277889900",
+          "addressLine1": "Sample Street 123"
+        }
+      },
+      {
+        "id": "ZfHRqqe4bBSydVU0Bvfv",
+        "data": {
+          "country": "Slovakia",
+          "email": "contact@marketingpro.sk",
+          "icDph": "SK202299887766",
+          "id": "ZfHRqqe4bBSydVU0Bvfv",
+          "ico": "99887766",
+          "name": "Marketing Pro",
+          "dic": "202299887766",
+          "zip": "000 00",
+          "city": "Trnava",
+          "addressLine1": "Sample Street 123"
+        }
+      },
+      {
+        "id": "avD0YZ12rho5lwJUemGV",
+        "data": {
+          "ico": "77889900",
+          "zip": "000 00",
+          "country": "Slovakia",
+          "email": "contact@logisticsplus.sk",
+          "icDph": "SK202277889900",
+          "id": "avD0YZ12rho5lwJUemGV",
+          "name": "Logistics Plus",
+          "city": "Senec",
+          "dic": "202277889900",
+          "addressLine1": "Sample Street 123"
+        }
+      },
+      {
+        "id": "cWN1fqSMBCs0YqNDRcuI",
+        "data": {
+          "email": "contact@greenfoods.sk",
+          "name": "Green Foods",
+          "zip": "000 00",
+          "addressLine1": "Sample Street 123",
+          "city": "Trenčín",
+          "id": "cWN1fqSMBCs0YqNDRcuI",
+          "dic": "202233445566",
+          "icDph": "SK202233445566",
+          "ico": "33445566",
+          "country": "Slovakia"
+        }
+      },
+      {
+        "id": "iQufHEZI7V08myueo8F5",
+        "data": {
+          "dic": "202255667788",
+          "email": "contact@devhouseltd.sk",
+          "ico": "55667788",
+          "city": "Žilina",
+          "addressLine1": "Sample Street 123",
+          "zip": "000 00",
+          "country": "Slovakia",
+          "name": "DevHouse Ltd",
+          "id": "iQufHEZI7V08myueo8F5",
+          "icDph": "SK202255667788"
+        }
+      },
+      {
+        "id": "jpi26DEeAQRfWevzHupV",
+        "data": {
+          "email": "contact@webwizards.sk",
+          "ico": "44556677",
+          "icDph": "SK202244556677",
+          "country": "Slovakia",
+          "dic": "202244556677",
+          "id": "jpi26DEeAQRfWevzHupV",
+          "city": "Poprad",
+          "zip": "000 00",
+          "addressLine1": "Sample Street 123",
+          "name": "Web Wizards"
+        }
+      },
+      {
+        "id": "qVHVORyfSKYo9BhTPD2p",
+        "data": {
+          "addressLine1": "Sample Street 123",
+          "id": "qVHVORyfSKYo9BhTPD2p",
+          "country": "Slovakia",
+          "city": "Košice",
+          "icDph": "SK202287654321",
+          "email": "contact@designstudiox.sk",
+          "ico": "87654321",
+          "zip": "000 00",
+          "name": "DesignStudio x",
+          "dic": "202287654321"
+        }
+      },
+      {
+        "id": "rdozGPgj8WBcAwqpGKSa",
+        "data": {
+          "ico": "33445566",
+          "icDph": "SK202233445566",
+          "country": "Slovakia",
+          "zip": "000 00",
+          "city": "Trenčín",
+          "dic": "202233445566",
+          "email": "contact@greenfoods.sk",
+          "name": "Green Foods",
+          "addressLine1": "Sample Street 123",
+          "id": "rdozGPgj8WBcAwqpGKSa"
+        }
+      },
+      {
+        "id": "zFaxq064uXKnEyP1QTUt",
+        "data": {
+          "country": "Slovakia",
+          "name": "DesignStudio x",
+          "id": "zFaxq064uXKnEyP1QTUt",
+          "ico": "87654321",
+          "city": "Košice",
+          "dic": "202287654321",
+          "addressLine1": "Sample Street 123",
+          "zip": "000 00",
+          "email": "contact@designstudiox.sk",
+          "icDph": "SK202287654321"
+        }
+      },
+      {
+        "id": "zG6apRWkl6NiRkOkg96G",
+        "data": {
+          "addressLine1": "Sample Street 123",
+          "ico": "44556677",
+          "country": "Slovakia",
+          "name": "Web Wizards",
+          "icDph": "SK202244556677",
+          "id": "zG6apRWkl6NiRkOkg96G",
+          "email": "contact@webwizards.sk",
+          "city": "Poprad",
+          "dic": "202244556677",
+          "zip": "000 00"
+        }
+      }
+    ],
+    "expenses": [],
+    "quotes": [],
+    "products": []
+  },
+  {
+    "userId": "yjV1t3Fa7qffgoFkY108CxgQubq1",
+    "userData": {
+      "email": "garsia@garsia.sk",
+      "createdAt": "2026-01-04T23:31:25.033Z",
+      "role": "admin"
+    },
+    "invoices": [
+      {
+        "id": "049b9094-bfe6-401c-8fd3-d8849549985f",
+        "data": {
+          "id": "049b9094-bfe6-401c-8fd3-d8849549985f",
+          "number": "TEST-2026-001",
+          "customer": {
+            "id": "6052f1b2-bdac-46cf-9e95-94ade9969342",
+            "name": "SwiftLog s.r.o.",
+            "addressLine1": "Sample St. 96",
+            "city": "Nitra",
+            "zip": "000 00",
+            "country": "Slovakia",
+            "ico": "31606690",
+            "dic": "2022118607",
+            "icDph": "SK2022184434",
+            "email": "info@swiftlog.test"
+          },
+          "supplier": {
+            "name": "Garsia s.r.o.",
+            "addressLine1": "Zeleninová 30",
+            "addressLine2": "",
+            "city": "Bratislava",
+            "zip": "851 10",
+            "country": "Slovensko",
+            "ico": "57278784",
+            "dic": "2122650684",
+            "icDph": "SK2122650684",
+            "bankName": "Tatra banka, a.s.",
+            "iban": "SK22 1100 0000 0029 4028 1956",
+            "swift": "TATR SK BX",
+            "businessRegisterInfo": "OR: oddiel Sro, vložka 1929/B"
+          },
+          "issueDate": "2025-12-08",
+          "dueDate": "2025-12-08",
+          "deliveryDate": "2025-12-08",
+          "status": "Sent",
+          "items": [
+            {
+              "description": "Test Service",
+              "quantity": 1,
+              "unitPrice": 416,
+              "vatRate": 20,
+              "unit": "ks"
+            }
+          ],
+          "variableSymbol": "57254"
+        }
+      },
+      {
+        "id": "0dbd3589-dafc-48e0-b850-65c478f297d7",
+        "data": {
+          "id": "0dbd3589-dafc-48e0-b850-65c478f297d7",
+          "number": "TEST-2026-002",
+          "customer": {
+            "id": "f9f75963-6c1d-4f43-a8ac-716e67985175",
+            "name": "TechSol s.r.o.",
+            "addressLine1": "Sample St. 14",
+            "city": "Bratislava",
+            "zip": "000 00",
+            "country": "Slovakia",
+            "ico": "76597544",
+            "dic": "2022648560",
+            "icDph": "SK2022324375",
+            "email": "info@techsol.test"
+          },
+          "supplier": {
+            "name": "Garsia s.r.o.",
+            "addressLine1": "Zeleninová 30",
+            "addressLine2": "",
+            "city": "Bratislava",
+            "zip": "851 10",
+            "country": "Slovensko",
+            "ico": "57278784",
+            "dic": "2122650684",
+            "icDph": "SK2122650684",
+            "bankName": "Tatra banka, a.s.",
+            "iban": "SK22 1100 0000 0029 4028 1956",
+            "swift": "TATR SK BX",
+            "businessRegisterInfo": "OR: oddiel Sro, vložka 1929/B"
+          },
+          "issueDate": "2025-12-27",
+          "dueDate": "2025-12-27",
+          "deliveryDate": "2025-12-27",
+          "status": "Sent",
+          "items": [
+            {
+              "description": "Test Service",
+              "quantity": 1,
+              "unitPrice": 340,
+              "vatRate": 20,
+              "unit": "ks"
+            }
+          ],
+          "variableSymbol": "64902"
+        }
+      },
+      {
+        "id": "15eb1062-f086-40a5-b71a-c5cf413ffb31",
+        "data": {
+          "id": "15eb1062-f086-40a5-b71a-c5cf413ffb31",
+          "number": "TEST-2026-005",
+          "customer": {
+            "id": "91b6e809-f248-4279-8bf2-69046257da6f",
+            "name": "SwiftLog Ltd.",
+            "addressLine1": "Sample St. 10",
+            "city": "Nitra",
+            "zip": "000 00",
+            "country": "Slovakia",
+            "ico": "6596721",
+            "dic": "2022984384",
+            "icDph": "SK2022777959",
+            "email": "info@swiftlog.test"
+          },
+          "supplier": {
+            "name": "Garsia s.r.o.",
+            "addressLine1": "Zeleninová 30",
+            "addressLine2": "",
+            "city": "Bratislava",
+            "zip": "851 10",
+            "country": "Slovensko",
+            "ico": "57278784",
+            "dic": "2122650684",
+            "icDph": "SK2122650684",
+            "bankName": "Tatra banka, a.s.",
+            "iban": "SK22 1100 0000 0029 4028 1956",
+            "swift": "TATR SK BX",
+            "businessRegisterInfo": "OR: oddiel Sro, vložka 1929/B"
+          },
+          "issueDate": "2025-12-10",
+          "dueDate": "2025-12-10",
+          "deliveryDate": "2025-12-10",
+          "status": "Paid",
+          "items": [
+            {
+              "description": "Test Service",
+              "quantity": 1,
+              "unitPrice": 498,
+              "vatRate": 20,
+              "unit": "ks"
+            }
+          ],
+          "variableSymbol": "53032"
+        }
+      },
+      {
+        "id": "18076150-3922-42d9-949a-4dae9167a7ec",
+        "data": {
+          "id": "18076150-3922-42d9-949a-4dae9167a7ec",
+          "number": "TEST-2026-001",
+          "customer": {
+            "id": "30a8266f-b914-4a6c-93b0-209537bb24d8",
+            "name": "BrightWeb s.r.o.",
+            "addressLine1": "Sample St. 17",
+            "city": "Žilina",
+            "zip": "000 00",
+            "country": "Slovakia",
+            "ico": "37903497",
+            "dic": "2022965590",
+            "icDph": "SK2022498195",
+            "email": "info@brightweb.test"
+          },
+          "supplier": {
+            "name": "Garsia s.r.o.",
+            "addressLine1": "Zeleninová 30",
+            "addressLine2": "",
+            "city": "Bratislava",
+            "zip": "851 10",
+            "country": "Slovensko",
+            "ico": "57278784",
+            "dic": "2122650684",
+            "icDph": "SK2122650684",
+            "bankName": "Tatra banka, a.s.",
+            "iban": "SK22 1100 0000 0029 4028 1956",
+            "swift": "TATR SK BX",
+            "businessRegisterInfo": "OR: oddiel Sro, vložka 1929/B"
+          },
+          "issueDate": "2025-12-06",
+          "dueDate": "2025-12-06",
+          "deliveryDate": "2025-12-06",
+          "status": "Paid",
+          "items": [
+            {
+              "description": "Test Service",
+              "quantity": 1,
+              "unitPrice": 269,
+              "vatRate": 20,
+              "unit": "ks"
+            }
+          ],
+          "variableSymbol": "88532"
+        }
+      },
+      {
+        "id": "1d90e5cd-aaf4-4948-8cbc-408f468af868",
+        "data": {
+          "id": "1d90e5cd-aaf4-4948-8cbc-408f468af868",
+          "number": "TEST-2026-003",
+          "customer": {
+            "id": "fd276e08-3a8a-42f9-8015-83e4b9ac584c",
+            "name": "LegalEase Ltd.",
+            "addressLine1": "Sample St. 26",
+            "city": "Trnava",
+            "zip": "000 00",
+            "country": "Slovakia",
+            "ico": "32475997",
+            "dic": "2022351755",
+            "icDph": "SK2022751723",
+            "email": "info@legalease.test"
+          },
+          "supplier": {
+            "name": "Garsia s.r.o.",
+            "addressLine1": "Zeleninová 30",
+            "addressLine2": "",
+            "city": "Bratislava",
+            "zip": "851 10",
+            "country": "Slovensko",
+            "ico": "57278784",
+            "dic": "2122650684",
+            "icDph": "SK2122650684",
+            "bankName": "Tatra banka, a.s.",
+            "iban": "SK22 1100 0000 0029 4028 1956",
+            "swift": "TATR SK BX",
+            "businessRegisterInfo": "OR: oddiel Sro, vložka 1929/B"
+          },
+          "issueDate": "2025-12-17",
+          "dueDate": "2025-12-17",
+          "deliveryDate": "2025-12-17",
+          "status": "Paid",
+          "items": [
+            {
+              "description": "Test Service",
+              "quantity": 1,
+              "unitPrice": 508,
+              "vatRate": 20,
+              "unit": "ks"
+            }
+          ],
+          "variableSymbol": "30497"
+        }
+      },
+      {
+        "id": "28e6c2c2-e4ef-4400-a453-1128eee2b81b",
+        "data": {
+          "id": "28e6c2c2-e4ef-4400-a453-1128eee2b81b",
+          "number": "TEST-2026-005",
+          "customer": {
+            "id": "6666195c-c503-43ad-bf68-f330193ec252",
+            "name": "SwiftLog Ltd.",
+            "addressLine1": "Sample St. 75",
+            "city": "Nitra",
+            "zip": "000 00",
+            "country": "Slovakia",
+            "ico": "24837389",
+            "dic": "2022276800",
+            "icDph": "SK2022735060",
+            "email": "info@swiftlog.test"
+          },
+          "supplier": {
+            "name": "Garsia s.r.o.",
+            "addressLine1": "Zeleninová 30",
+            "addressLine2": "",
+            "city": "Bratislava",
+            "zip": "851 10",
+            "country": "Slovensko",
+            "ico": "57278784",
+            "dic": "2122650684",
+            "icDph": "SK2122650684",
+            "bankName": "Tatra banka, a.s.",
+            "iban": "SK22 1100 0000 0029 4028 1956",
+            "swift": "TATR SK BX",
+            "businessRegisterInfo": "OR: oddiel Sro, vložka 1929/B"
+          },
+          "issueDate": "2026-01-01",
+          "dueDate": "2026-01-01",
+          "deliveryDate": "2026-01-01",
+          "status": "Sent",
+          "items": [
+            {
+              "description": "Test Service",
+              "quantity": 1,
+              "unitPrice": 407,
+              "vatRate": 20,
+              "unit": "ks"
+            }
+          ],
+          "variableSymbol": "36143"
+        }
+      },
+      {
+        "id": "41d3e737-07fd-4afa-8f2c-954bb7440ff7",
+        "data": {
+          "id": "41d3e737-07fd-4afa-8f2c-954bb7440ff7",
+          "number": "TEST-2026-004",
+          "customer": {
+            "id": "fd276e08-3a8a-42f9-8015-83e4b9ac584c",
+            "name": "LegalEase Ltd.",
+            "addressLine1": "Sample St. 26",
+            "city": "Trnava",
+            "zip": "000 00",
+            "country": "Slovakia",
+            "ico": "32475997",
+            "dic": "2022351755",
+            "icDph": "SK2022751723",
+            "email": "info@legalease.test"
+          },
+          "supplier": {
+            "name": "Garsia s.r.o.",
+            "addressLine1": "Zeleninová 30",
+            "addressLine2": "",
+            "city": "Bratislava",
+            "zip": "851 10",
+            "country": "Slovensko",
+            "ico": "57278784",
+            "dic": "2122650684",
+            "icDph": "SK2122650684",
+            "bankName": "Tatra banka, a.s.",
+            "iban": "SK22 1100 0000 0029 4028 1956",
+            "swift": "TATR SK BX",
+            "businessRegisterInfo": "OR: oddiel Sro, vložka 1929/B"
+          },
+          "issueDate": "2025-12-19",
+          "dueDate": "2025-12-19",
+          "deliveryDate": "2025-12-19",
+          "status": "Paid",
+          "items": [
+            {
+              "description": "Test Service",
+              "quantity": 1,
+              "unitPrice": 348,
+              "vatRate": 20,
+              "unit": "ks"
+            }
+          ],
+          "variableSymbol": "10126"
+        }
+      },
+      {
+        "id": "42686424-cade-4eea-ac0f-c99166dd3024",
+        "data": {
+          "id": "42686424-cade-4eea-ac0f-c99166dd3024",
+          "number": "TEST-2026-004",
+          "customer": {
+            "id": "de2dbf00-ef07-432f-b6e6-10944bebfef1",
+            "name": "LegalEase Ltd.",
+            "addressLine1": "Sample St. 95",
+            "city": "Trnava",
+            "zip": "000 00",
+            "country": "Slovakia",
+            "ico": "51736255",
+            "dic": "2022506623",
+            "icDph": "SK2022724430",
+            "email": "info@legalease.test"
+          },
+          "supplier": {
+            "name": "Garsia s.r.o.",
+            "addressLine1": "Zeleninová 30",
+            "addressLine2": "",
+            "city": "Bratislava",
+            "zip": "851 10",
+            "country": "Slovensko",
+            "ico": "57278784",
+            "dic": "2122650684",
+            "icDph": "SK2122650684",
+            "bankName": "Tatra banka, a.s.",
+            "iban": "SK22 1100 0000 0029 4028 1956",
+            "swift": "TATR SK BX",
+            "businessRegisterInfo": "OR: oddiel Sro, vložka 1929/B"
+          },
+          "issueDate": "2025-12-23",
+          "dueDate": "2025-12-23",
+          "deliveryDate": "2025-12-23",
+          "status": "Sent",
+          "items": [
+            {
+              "description": "Test Service",
+              "quantity": 1,
+              "unitPrice": 286,
+              "vatRate": 20,
+              "unit": "ks"
+            }
+          ],
+          "variableSymbol": "39943"
+        }
+      },
+      {
+        "id": "4ad390de-d96d-43e0-b1c4-894d0dda0177",
+        "data": {
+          "id": "4ad390de-d96d-43e0-b1c4-894d0dda0177",
+          "number": "TEST-2026-002",
+          "customer": {
+            "id": "fdf649fe-cac0-49e2-a75c-c6826a2954fd",
+            "name": "LegalEase s.r.o.",
+            "addressLine1": "Sample St. 6",
+            "city": "Trnava",
+            "zip": "000 00",
+            "country": "Slovakia",
+            "ico": "64053549",
+            "dic": "2022491370",
+            "icDph": "SK2022697335",
+            "email": "info@legalease.test"
+          },
+          "supplier": {
+            "name": "Garsia s.r.o.",
+            "addressLine1": "Zeleninová 30",
+            "addressLine2": "",
+            "city": "Bratislava",
+            "zip": "851 10",
+            "country": "Slovensko",
+            "ico": "57278784",
+            "dic": "2122650684",
+            "icDph": "SK2122650684",
+            "bankName": "Tatra banka, a.s.",
+            "iban": "SK22 1100 0000 0029 4028 1956",
+            "swift": "TATR SK BX",
+            "businessRegisterInfo": "OR: oddiel Sro, vložka 1929/B"
+          },
+          "issueDate": "2025-12-15",
+          "dueDate": "2025-12-15",
+          "deliveryDate": "2025-12-15",
+          "status": "Sent",
+          "items": [
+            {
+              "description": "Test Service",
+              "quantity": 1,
+              "unitPrice": 393,
+              "vatRate": 20,
+              "unit": "ks"
+            }
+          ],
+          "variableSymbol": "5797"
+        }
+      },
+      {
+        "id": "5552034a-e04b-4ddf-99b2-1ad6f01ebe9d",
+        "data": {
+          "id": "5552034a-e04b-4ddf-99b2-1ad6f01ebe9d",
+          "number": "TEST-2026-005",
+          "customer": {
+            "id": "44121014-40b0-4532-bdb5-fe103e708e71",
+            "name": "SwiftLog s.r.o.",
+            "addressLine1": "Sample St. 61",
+            "city": "Nitra",
+            "zip": "000 00",
+            "country": "Slovakia",
+            "ico": "59547848",
+            "dic": "2022183070",
+            "icDph": "SK2022960558",
+            "email": "info@swiftlog.test"
+          },
+          "supplier": {
+            "name": "Garsia s.r.o.",
+            "addressLine1": "Zeleninová 30",
+            "addressLine2": "",
+            "city": "Bratislava",
+            "zip": "851 10",
+            "country": "Slovensko",
+            "ico": "57278784",
+            "dic": "2122650684",
+            "icDph": "SK2122650684",
+            "bankName": "Tatra banka, a.s.",
+            "iban": "SK22 1100 0000 0029 4028 1956",
+            "swift": "TATR SK BX",
+            "businessRegisterInfo": "OR: oddiel Sro, vložka 1929/B"
+          },
+          "issueDate": "2025-12-19",
+          "dueDate": "2025-12-19",
+          "deliveryDate": "2025-12-19",
+          "status": "Paid",
+          "items": [
+            {
+              "description": "Test Service",
+              "quantity": 1,
+              "unitPrice": 328,
+              "vatRate": 20,
+              "unit": "ks"
+            }
+          ],
+          "variableSymbol": "59552"
+        }
+      },
+      {
+        "id": "57d97c24-5030-4a6f-a555-8e09ddfe465d",
+        "data": {
+          "id": "57d97c24-5030-4a6f-a555-8e09ddfe465d",
+          "number": "TEST-2026-003",
+          "customer": {
+            "id": "6052f1b2-bdac-46cf-9e95-94ade9969342",
+            "name": "SwiftLog s.r.o.",
+            "addressLine1": "Sample St. 96",
+            "city": "Nitra",
+            "zip": "000 00",
+            "country": "Slovakia",
+            "ico": "31606690",
+            "dic": "2022118607",
+            "icDph": "SK2022184434",
+            "email": "info@swiftlog.test"
+          },
+          "supplier": {
+            "name": "Garsia s.r.o.",
+            "addressLine1": "Zeleninová 30",
+            "addressLine2": "",
+            "city": "Bratislava",
+            "zip": "851 10",
+            "country": "Slovensko",
+            "ico": "57278784",
+            "dic": "2122650684",
+            "icDph": "SK2122650684",
+            "bankName": "Tatra banka, a.s.",
+            "iban": "SK22 1100 0000 0029 4028 1956",
+            "swift": "TATR SK BX",
+            "businessRegisterInfo": "OR: oddiel Sro, vložka 1929/B"
+          },
+          "issueDate": "2025-12-06",
+          "dueDate": "2025-12-06",
+          "deliveryDate": "2025-12-06",
+          "status": "Paid",
+          "items": [
+            {
+              "description": "Test Service",
+              "quantity": 1,
+              "unitPrice": 132,
+              "vatRate": 20,
+              "unit": "ks"
+            }
+          ],
+          "variableSymbol": "37465"
+        }
+      },
+      {
+        "id": "60310c34-f9ad-4548-9d32-e2b9a9f29d4b",
+        "data": {
+          "id": "60310c34-f9ad-4548-9d32-e2b9a9f29d4b",
+          "number": "TEST-2026-004",
+          "customer": {
+            "id": "20242713-c71c-4a54-b04f-7fbed825b9dc",
+            "name": "SwiftLog Ltd.",
+            "addressLine1": "Sample St. 87",
+            "city": "Nitra",
+            "zip": "000 00",
+            "country": "Slovakia",
+            "ico": "92926517",
+            "dic": "2022829501",
+            "icDph": "SK2022647272",
+            "email": "info@swiftlog.test"
+          },
+          "supplier": {
+            "name": "Garsia s.r.o.",
+            "addressLine1": "Zeleninová 30",
+            "addressLine2": "",
+            "city": "Bratislava",
+            "zip": "851 10",
+            "country": "Slovensko",
+            "ico": "57278784",
+            "dic": "2122650684",
+            "icDph": "SK2122650684",
+            "bankName": "Tatra banka, a.s.",
+            "iban": "SK22 1100 0000 0029 4028 1956",
+            "swift": "TATR SK BX",
+            "businessRegisterInfo": "OR: oddiel Sro, vložka 1929/B"
+          },
+          "issueDate": "2025-12-15",
+          "dueDate": "2025-12-15",
+          "deliveryDate": "2025-12-15",
+          "status": "Sent",
+          "items": [
+            {
+              "description": "Test Service",
+              "quantity": 1,
+              "unitPrice": 104,
+              "vatRate": 20,
+              "unit": "ks"
+            }
+          ],
+          "variableSymbol": "24345"
+        }
+      },
+      {
+        "id": "6de14355-2d22-4631-b34e-6e484aa2869c",
+        "data": {
+          "id": "6de14355-2d22-4631-b34e-6e484aa2869c",
+          "number": "TEST-2026-004",
+          "customer": {
+            "id": "f31fd598-5320-4200-88c9-a0839af8e592",
+            "name": "GreenLeaf s.r.o.",
+            "addressLine1": "Sample St. 94",
+            "city": "Košice",
+            "zip": "000 00",
+            "country": "Slovakia",
+            "ico": "22735130",
+            "dic": "202263448",
+            "icDph": "SK2022822906",
+            "email": "info@greenleaf.test"
+          },
+          "supplier": {
+            "name": "Garsia s.r.o.",
+            "addressLine1": "Zeleninová 30",
+            "addressLine2": "",
+            "city": "Bratislava",
+            "zip": "851 10",
+            "country": "Slovensko",
+            "ico": "57278784",
+            "dic": "2122650684",
+            "icDph": "SK2122650684",
+            "bankName": "Tatra banka, a.s.",
+            "iban": "SK22 1100 0000 0029 4028 1956",
+            "swift": "TATR SK BX",
+            "businessRegisterInfo": "OR: oddiel Sro, vložka 1929/B"
+          },
+          "issueDate": "2025-12-10",
+          "dueDate": "2025-12-10",
+          "deliveryDate": "2025-12-10",
+          "status": "Sent",
+          "items": [
+            {
+              "description": "Test Service",
+              "quantity": 1,
+              "unitPrice": 428,
+              "vatRate": 20,
+              "unit": "ks"
+            }
+          ],
+          "variableSymbol": "95189"
+        }
+      },
+      {
+        "id": "71e3de1b-af49-4b11-81dd-a33fa8b603b7",
+        "data": {
+          "id": "71e3de1b-af49-4b11-81dd-a33fa8b603b7",
+          "number": "TEST-2026-002",
+          "customer": {
+            "id": "f31fd598-5320-4200-88c9-a0839af8e592",
+            "name": "GreenLeaf s.r.o.",
+            "addressLine1": "Sample St. 94",
+            "city": "Košice",
+            "zip": "000 00",
+            "country": "Slovakia",
+            "ico": "22735130",
+            "dic": "202263448",
+            "icDph": "SK2022822906",
+            "email": "info@greenleaf.test"
+          },
+          "supplier": {
+            "name": "Garsia s.r.o.",
+            "addressLine1": "Zeleninová 30",
+            "addressLine2": "",
+            "city": "Bratislava",
+            "zip": "851 10",
+            "country": "Slovensko",
+            "ico": "57278784",
+            "dic": "2122650684",
+            "icDph": "SK2122650684",
+            "bankName": "Tatra banka, a.s.",
+            "iban": "SK22 1100 0000 0029 4028 1956",
+            "swift": "TATR SK BX",
+            "businessRegisterInfo": "OR: oddiel Sro, vložka 1929/B"
+          },
+          "issueDate": "2026-01-01",
+          "dueDate": "2026-01-01",
+          "deliveryDate": "2026-01-01",
+          "status": "Sent",
+          "items": [
+            {
+              "description": "Test Service",
+              "quantity": 1,
+              "unitPrice": 299,
+              "vatRate": 20,
+              "unit": "ks"
+            }
+          ],
+          "variableSymbol": "68247"
+        }
+      },
+      {
+        "id": "7603641a-9c1c-4148-b032-44294cc651d7",
+        "data": {
+          "id": "7603641a-9c1c-4148-b032-44294cc651d7",
+          "number": "TEST-2026-002",
+          "customer": {
+            "id": "fd276e08-3a8a-42f9-8015-83e4b9ac584c",
+            "name": "LegalEase Ltd.",
+            "addressLine1": "Sample St. 26",
+            "city": "Trnava",
+            "zip": "000 00",
+            "country": "Slovakia",
+            "ico": "32475997",
+            "dic": "2022351755",
+            "icDph": "SK2022751723",
+            "email": "info@legalease.test"
+          },
+          "supplier": {
+            "name": "Garsia s.r.o.",
+            "addressLine1": "Zeleninová 30",
+            "addressLine2": "",
+            "city": "Bratislava",
+            "zip": "851 10",
+            "country": "Slovensko",
+            "ico": "57278784",
+            "dic": "2122650684",
+            "icDph": "SK2122650684",
+            "bankName": "Tatra banka, a.s.",
+            "iban": "SK22 1100 0000 0029 4028 1956",
+            "swift": "TATR SK BX",
+            "businessRegisterInfo": "OR: oddiel Sro, vložka 1929/B"
+          },
+          "issueDate": "2025-12-09",
+          "dueDate": "2025-12-09",
+          "deliveryDate": "2025-12-09",
+          "status": "Paid",
+          "items": [
+            {
+              "description": "Test Service",
+              "quantity": 1,
+              "unitPrice": 228,
+              "vatRate": 20,
+              "unit": "ks"
+            }
+          ],
+          "variableSymbol": "64533"
+        }
+      },
+      {
+        "id": "7f1b0d40-05a5-44ff-b377-71838ae274a5",
+        "data": {
+          "id": "7f1b0d40-05a5-44ff-b377-71838ae274a5",
+          "number": "TEST-2026-003",
+          "customer": {
+            "id": "91b6e809-f248-4279-8bf2-69046257da6f",
+            "name": "SwiftLog Ltd.",
+            "addressLine1": "Sample St. 10",
+            "city": "Nitra",
+            "zip": "000 00",
+            "country": "Slovakia",
+            "ico": "6596721",
+            "dic": "2022984384",
+            "icDph": "SK2022777959",
+            "email": "info@swiftlog.test"
+          },
+          "supplier": {
+            "name": "Garsia s.r.o.",
+            "addressLine1": "Zeleninová 30",
+            "addressLine2": "",
+            "city": "Bratislava",
+            "zip": "851 10",
+            "country": "Slovensko",
+            "ico": "57278784",
+            "dic": "2122650684",
+            "icDph": "SK2122650684",
+            "bankName": "Tatra banka, a.s.",
+            "iban": "SK22 1100 0000 0029 4028 1956",
+            "swift": "TATR SK BX",
+            "businessRegisterInfo": "OR: oddiel Sro, vložka 1929/B"
+          },
+          "issueDate": "2025-12-08",
+          "dueDate": "2025-12-08",
+          "deliveryDate": "2025-12-08",
+          "status": "Sent",
+          "items": [
+            {
+              "description": "Test Service",
+              "quantity": 1,
+              "unitPrice": 196,
+              "vatRate": 20,
+              "unit": "ks"
+            }
+          ],
+          "variableSymbol": "27500"
+        }
+      },
+      {
+        "id": "83986ac8-c3fe-4fd5-bac8-4841fd061b64",
+        "data": {
+          "id": "83986ac8-c3fe-4fd5-bac8-4841fd061b64",
+          "number": "TEST-2026-004",
+          "customer": {
+            "id": "f9f75963-6c1d-4f43-a8ac-716e67985175",
+            "name": "TechSol s.r.o.",
+            "addressLine1": "Sample St. 14",
+            "city": "Bratislava",
+            "zip": "000 00",
+            "country": "Slovakia",
+            "ico": "76597544",
+            "dic": "2022648560",
+            "icDph": "SK2022324375",
+            "email": "info@techsol.test"
+          },
+          "supplier": {
+            "name": "Garsia s.r.o.",
+            "addressLine1": "Zeleninová 30",
+            "addressLine2": "",
+            "city": "Bratislava",
+            "zip": "851 10",
+            "country": "Slovensko",
+            "ico": "57278784",
+            "dic": "2122650684",
+            "icDph": "SK2122650684",
+            "bankName": "Tatra banka, a.s.",
+            "iban": "SK22 1100 0000 0029 4028 1956",
+            "swift": "TATR SK BX",
+            "businessRegisterInfo": "OR: oddiel Sro, vložka 1929/B"
+          },
+          "issueDate": "2025-12-19",
+          "dueDate": "2025-12-19",
+          "deliveryDate": "2025-12-19",
+          "status": "Sent",
+          "items": [
+            {
+              "description": "Test Service",
+              "quantity": 1,
+              "unitPrice": 265,
+              "vatRate": 20,
+              "unit": "ks"
+            }
+          ],
+          "variableSymbol": "47083"
+        }
+      },
+      {
+        "id": "87324c72-a2f3-45f4-9251-fc0df82ba9f3",
+        "data": {
+          "id": "87324c72-a2f3-45f4-9251-fc0df82ba9f3",
+          "number": "TEST-2026-001",
+          "customer": {
+            "id": "fe84d66e-dafb-436e-9278-a9c4551b3165",
+            "name": "BrightWeb s.r.o.",
+            "addressLine1": "Sample St. 11",
+            "city": "Žilina",
+            "zip": "000 00",
+            "country": "Slovakia",
+            "ico": "13416413",
+            "dic": "2022954240",
+            "icDph": "SK2022465690",
+            "email": "info@brightweb.test"
+          },
+          "supplier": {
+            "name": "Garsia s.r.o.",
+            "addressLine1": "Zeleninová 30",
+            "addressLine2": "",
+            "city": "Bratislava",
+            "zip": "851 10",
+            "country": "Slovensko",
+            "ico": "57278784",
+            "dic": "2122650684",
+            "icDph": "SK2122650684",
+            "bankName": "Tatra banka, a.s.",
+            "iban": "SK22 1100 0000 0029 4028 1956",
+            "swift": "TATR SK BX",
+            "businessRegisterInfo": "OR: oddiel Sro, vložka 1929/B"
+          },
+          "issueDate": "2025-12-27",
+          "dueDate": "2025-12-27",
+          "deliveryDate": "2025-12-27",
+          "status": "Sent",
+          "items": [
+            {
+              "description": "Test Service",
+              "quantity": 1,
+              "unitPrice": 468,
+              "vatRate": 20,
+              "unit": "ks"
+            }
+          ],
+          "variableSymbol": "5369"
+        }
+      },
+      {
+        "id": "8d1f98e1-172e-42a6-957b-8aada8890f00",
+        "data": {
+          "id": "8d1f98e1-172e-42a6-957b-8aada8890f00",
+          "number": "TEST-2026-005",
+          "customer": {
+            "id": "8b5ebfc2-57cb-467d-a3d5-a3c47efdb67f",
+            "name": "GreenLeaf Ltd.",
+            "addressLine1": "Sample St. 9",
+            "city": "Košice",
+            "zip": "000 00",
+            "country": "Slovakia",
+            "ico": "61534477",
+            "dic": "2022823380",
+            "icDph": "SK2022154721",
+            "email": "info@greenleaf.test"
+          },
+          "supplier": {
+            "name": "Garsia s.r.o.",
+            "addressLine1": "Zeleninová 30",
+            "addressLine2": "",
+            "city": "Bratislava",
+            "zip": "851 10",
+            "country": "Slovensko",
+            "ico": "57278784",
+            "dic": "2122650684",
+            "icDph": "SK2122650684",
+            "bankName": "Tatra banka, a.s.",
+            "iban": "SK22 1100 0000 0029 4028 1956",
+            "swift": "TATR SK BX",
+            "businessRegisterInfo": "OR: oddiel Sro, vložka 1929/B"
+          },
+          "issueDate": "2025-12-28",
+          "dueDate": "2025-12-28",
+          "deliveryDate": "2025-12-28",
+          "status": "Paid",
+          "items": [
+            {
+              "description": "Test Service",
+              "quantity": 1,
+              "unitPrice": 285,
+              "vatRate": 20,
+              "unit": "ks"
+            }
+          ],
+          "variableSymbol": "8713"
+        }
+      },
+      {
+        "id": "bde0ede4-d028-43fc-839b-740e23dbd2c4",
+        "data": {
+          "id": "bde0ede4-d028-43fc-839b-740e23dbd2c4",
+          "number": "TEST-2026-002",
+          "customer": {
+            "id": "de2dbf00-ef07-432f-b6e6-10944bebfef1",
+            "name": "LegalEase Ltd.",
+            "addressLine1": "Sample St. 95",
+            "city": "Trnava",
+            "zip": "000 00",
+            "country": "Slovakia",
+            "ico": "51736255",
+            "dic": "2022506623",
+            "icDph": "SK2022724430",
+            "email": "info@legalease.test"
+          },
+          "supplier": {
+            "name": "Garsia s.r.o.",
+            "addressLine1": "Zeleninová 30",
+            "addressLine2": "",
+            "city": "Bratislava",
+            "zip": "851 10",
+            "country": "Slovensko",
+            "ico": "57278784",
+            "dic": "2122650684",
+            "icDph": "SK2122650684",
+            "bankName": "Tatra banka, a.s.",
+            "iban": "SK22 1100 0000 0029 4028 1956",
+            "swift": "TATR SK BX",
+            "businessRegisterInfo": "OR: oddiel Sro, vložka 1929/B"
+          },
+          "issueDate": "2025-12-10",
+          "dueDate": "2025-12-10",
+          "deliveryDate": "2025-12-10",
+          "status": "Sent",
+          "items": [
+            {
+              "description": "Test Service",
+              "quantity": 1,
+              "unitPrice": 178,
+              "vatRate": 20,
+              "unit": "ks"
+            }
+          ],
+          "variableSymbol": "67366"
+        }
+      },
+      {
+        "id": "c134d962-0858-4969-b8ff-82065e9b935f",
+        "data": {
+          "id": "c134d962-0858-4969-b8ff-82065e9b935f",
+          "number": "TEST-2026-003",
+          "customer": {
+            "id": "96e0e998-1cd6-4511-be48-fd081e7f231d",
+            "name": "GreenLeaf Ltd.",
+            "addressLine1": "Sample St. 85",
+            "city": "Košice",
+            "zip": "000 00",
+            "country": "Slovakia",
+            "ico": "60097373",
+            "dic": "2022427720",
+            "icDph": "SK2022894315",
+            "email": "info@greenleaf.test"
+          },
+          "supplier": {
+            "name": "Garsia s.r.o.",
+            "addressLine1": "Zeleninová 30",
+            "addressLine2": "",
+            "city": "Bratislava",
+            "zip": "851 10",
+            "country": "Slovensko",
+            "ico": "57278784",
+            "dic": "2122650684",
+            "icDph": "SK2122650684",
+            "bankName": "Tatra banka, a.s.",
+            "iban": "SK22 1100 0000 0029 4028 1956",
+            "swift": "TATR SK BX",
+            "businessRegisterInfo": "OR: oddiel Sro, vložka 1929/B"
+          },
+          "issueDate": "2025-12-17",
+          "dueDate": "2025-12-17",
+          "deliveryDate": "2025-12-17",
+          "status": "Sent",
+          "items": [
+            {
+              "description": "Test Service",
+              "quantity": 1,
+              "unitPrice": 329,
+              "vatRate": 20,
+              "unit": "ks"
+            }
+          ],
+          "variableSymbol": "71315"
+        }
+      },
+      {
+        "id": "d26d25a6-a1cb-4358-85ef-3c6324f1db46",
+        "data": {
+          "id": "d26d25a6-a1cb-4358-85ef-3c6324f1db46",
+          "number": "TEST-2026-001",
+          "customer": {
+            "id": "44121014-40b0-4532-bdb5-fe103e708e71",
+            "name": "SwiftLog s.r.o.",
+            "addressLine1": "Sample St. 61",
+            "city": "Nitra",
+            "zip": "000 00",
+            "country": "Slovakia",
+            "ico": "59547848",
+            "dic": "2022183070",
+            "icDph": "SK2022960558",
+            "email": "info@swiftlog.test"
+          },
+          "supplier": {
+            "name": "Garsia s.r.o.",
+            "addressLine1": "Zeleninová 30",
+            "addressLine2": "",
+            "city": "Bratislava",
+            "zip": "851 10",
+            "country": "Slovensko",
+            "ico": "57278784",
+            "dic": "2122650684",
+            "icDph": "SK2122650684",
+            "bankName": "Tatra banka, a.s.",
+            "iban": "SK22 1100 0000 0029 4028 1956",
+            "swift": "TATR SK BX",
+            "businessRegisterInfo": "OR: oddiel Sro, vložka 1929/B"
+          },
+          "issueDate": "2025-12-06",
+          "dueDate": "2025-12-06",
+          "deliveryDate": "2025-12-06",
+          "status": "Paid",
+          "items": [
+            {
+              "description": "Test Service",
+              "quantity": 1,
+              "unitPrice": 127,
+              "vatRate": 20,
+              "unit": "ks"
+            }
+          ],
+          "variableSymbol": "87721"
+        }
+      },
+      {
+        "id": "ec217b1f-b9f5-468b-bf95-c773d87fb183",
+        "data": {
+          "id": "ec217b1f-b9f5-468b-bf95-c773d87fb183",
+          "number": "TEST-2026-001",
+          "customer": {
+            "id": "fdf649fe-cac0-49e2-a75c-c6826a2954fd",
+            "name": "LegalEase s.r.o.",
+            "addressLine1": "Sample St. 6",
+            "city": "Trnava",
+            "zip": "000 00",
+            "country": "Slovakia",
+            "ico": "64053549",
+            "dic": "2022491370",
+            "icDph": "SK2022697335",
+            "email": "info@legalease.test"
+          },
+          "supplier": {
+            "name": "Garsia s.r.o.",
+            "addressLine1": "Zeleninová 30",
+            "addressLine2": "",
+            "city": "Bratislava",
+            "zip": "851 10",
+            "country": "Slovensko",
+            "ico": "57278784",
+            "dic": "2122650684",
+            "icDph": "SK2122650684",
+            "bankName": "Tatra banka, a.s.",
+            "iban": "SK22 1100 0000 0029 4028 1956",
+            "swift": "TATR SK BX",
+            "businessRegisterInfo": "OR: oddiel Sro, vložka 1929/B"
+          },
+          "issueDate": "2025-12-18",
+          "dueDate": "2025-12-18",
+          "deliveryDate": "2025-12-18",
+          "status": "Sent",
+          "items": [
+            {
+              "description": "Test Service",
+              "quantity": 1,
+              "unitPrice": 484,
+              "vatRate": 20,
+              "unit": "ks"
+            }
+          ],
+          "variableSymbol": "1853"
+        }
+      },
+      {
+        "id": "f32238be-d7cd-4eab-a110-69199af9582f",
+        "data": {
+          "id": "f32238be-d7cd-4eab-a110-69199af9582f",
+          "number": "TEST-2026-005",
+          "customer": {
+            "id": "32e948c7-f536-4e6e-b39f-4e5e2cbbf8ce",
+            "name": "GreenLeaf Ltd.",
+            "addressLine1": "Sample St. 15",
+            "city": "Košice",
+            "zip": "000 00",
+            "country": "Slovakia",
+            "ico": "82259920",
+            "dic": "2022229051",
+            "icDph": "SK2022232021",
+            "email": "info@greenleaf.test"
+          },
+          "supplier": {
+            "name": "Garsia s.r.o.",
+            "addressLine1": "Zeleninová 30",
+            "addressLine2": "",
+            "city": "Bratislava",
+            "zip": "851 10",
+            "country": "Slovensko",
+            "ico": "57278784",
+            "dic": "2122650684",
+            "icDph": "SK2122650684",
+            "bankName": "Tatra banka, a.s.",
+            "iban": "SK22 1100 0000 0029 4028 1956",
+            "swift": "TATR SK BX",
+            "businessRegisterInfo": "OR: oddiel Sro, vložka 1929/B"
+          },
+          "issueDate": "2025-12-30",
+          "dueDate": "2025-12-30",
+          "deliveryDate": "2025-12-30",
+          "status": "Sent",
+          "items": [
+            {
+              "description": "Test Service",
+              "quantity": 1,
+              "unitPrice": 478,
+              "vatRate": 20,
+              "unit": "ks"
+            }
+          ],
+          "variableSymbol": "14856"
+        }
+      },
+      {
+        "id": "f6e487f5-77e9-44b0-811c-d2cc6f50247c",
+        "data": {
+          "id": "f6e487f5-77e9-44b0-811c-d2cc6f50247c",
+          "number": "TEST-2026-003",
+          "customer": {
+            "id": "f2b4a331-959f-4a52-a3e1-f0ec500549fc",
+            "name": "TechSol Ltd.",
+            "addressLine1": "Sample St. 86",
+            "city": "Bratislava",
+            "zip": "000 00",
+            "country": "Slovakia",
+            "ico": "65328992",
+            "dic": "2022978304",
+            "icDph": "SK2022356786",
+            "email": "info@techsol.test"
+          },
+          "supplier": {
+            "name": "Garsia s.r.o.",
+            "addressLine1": "Zeleninová 30",
+            "addressLine2": "",
+            "city": "Bratislava",
+            "zip": "851 10",
+            "country": "Slovensko",
+            "ico": "57278784",
+            "dic": "2122650684",
+            "icDph": "SK2122650684",
+            "bankName": "Tatra banka, a.s.",
+            "iban": "SK22 1100 0000 0029 4028 1956",
+            "swift": "TATR SK BX",
+            "businessRegisterInfo": "OR: oddiel Sro, vložka 1929/B"
+          },
+          "issueDate": "2025-12-19",
+          "dueDate": "2025-12-19",
+          "deliveryDate": "2025-12-19",
+          "status": "Paid",
+          "items": [
+            {
+              "description": "Test Service",
+              "quantity": 1,
+              "unitPrice": 406,
+              "vatRate": 20,
+              "unit": "ks"
+            }
+          ],
+          "variableSymbol": "36168"
+        }
+      }
+    ],
+    "customers": [
+      {
+        "id": "0628b04b-af09-453e-b9f1-e32ad524d8eb",
+        "data": {
+          "id": "0628b04b-af09-453e-b9f1-e32ad524d8eb",
+          "name": "TechSol Ltd.",
+          "addressLine1": "Sample St. 83",
+          "city": "Bratislava",
+          "zip": "000 00",
+          "country": "Slovakia",
+          "ico": "56417216",
+          "dic": "2022877398",
+          "icDph": "SK2022309870",
+          "email": "info@techsol.test"
+        }
+      },
+      {
+        "id": "20242713-c71c-4a54-b04f-7fbed825b9dc",
+        "data": {
+          "id": "20242713-c71c-4a54-b04f-7fbed825b9dc",
+          "name": "SwiftLog Ltd.",
+          "addressLine1": "Sample St. 87",
+          "city": "Nitra",
+          "zip": "000 00",
+          "country": "Slovakia",
+          "ico": "92926517",
+          "dic": "2022829501",
+          "icDph": "SK2022647272",
+          "email": "info@swiftlog.test"
+        }
+      },
+      {
+        "id": "30a8266f-b914-4a6c-93b0-209537bb24d8",
+        "data": {
+          "id": "30a8266f-b914-4a6c-93b0-209537bb24d8",
+          "name": "BrightWeb s.r.o.",
+          "addressLine1": "Sample St. 17",
+          "city": "Žilina",
+          "zip": "000 00",
+          "country": "Slovakia",
+          "ico": "37903497",
+          "dic": "2022965590",
+          "icDph": "SK2022498195",
+          "email": "info@brightweb.test"
+        }
+      },
+      {
+        "id": "32e948c7-f536-4e6e-b39f-4e5e2cbbf8ce",
+        "data": {
+          "id": "32e948c7-f536-4e6e-b39f-4e5e2cbbf8ce",
+          "name": "GreenLeaf Ltd.",
+          "addressLine1": "Sample St. 15",
+          "city": "Košice",
+          "zip": "000 00",
+          "country": "Slovakia",
+          "ico": "82259920",
+          "dic": "2022229051",
+          "icDph": "SK2022232021",
+          "email": "info@greenleaf.test"
+        }
+      },
+      {
+        "id": "3622b079-862e-4bd8-9632-aa43ecadb935",
+        "data": {
+          "id": "3622b079-862e-4bd8-9632-aa43ecadb935",
+          "name": "LegalEase s.r.o.",
+          "addressLine1": "Sample St. 91",
+          "city": "Trnava",
+          "zip": "000 00",
+          "country": "Slovakia",
+          "ico": "6639468",
+          "dic": "2022222395",
+          "icDph": "SK2022811509",
+          "email": "info@legalease.test"
+        }
+      },
+      {
+        "id": "44121014-40b0-4532-bdb5-fe103e708e71",
+        "data": {
+          "id": "44121014-40b0-4532-bdb5-fe103e708e71",
+          "name": "SwiftLog s.r.o.",
+          "addressLine1": "Sample St. 61",
+          "city": "Nitra",
+          "zip": "000 00",
+          "country": "Slovakia",
+          "ico": "59547848",
+          "dic": "2022183070",
+          "icDph": "SK2022960558",
+          "email": "info@swiftlog.test"
+        }
+      },
+      {
+        "id": "6052f1b2-bdac-46cf-9e95-94ade9969342",
+        "data": {
+          "id": "6052f1b2-bdac-46cf-9e95-94ade9969342",
+          "name": "SwiftLog s.r.o.",
+          "addressLine1": "Sample St. 96",
+          "city": "Nitra",
+          "zip": "000 00",
+          "country": "Slovakia",
+          "ico": "31606690",
+          "dic": "2022118607",
+          "icDph": "SK2022184434",
+          "email": "info@swiftlog.test"
+        }
+      },
+      {
+        "id": "6666195c-c503-43ad-bf68-f330193ec252",
+        "data": {
+          "id": "6666195c-c503-43ad-bf68-f330193ec252",
+          "name": "SwiftLog Ltd.",
+          "addressLine1": "Sample St. 75",
+          "city": "Nitra",
+          "zip": "000 00",
+          "country": "Slovakia",
+          "ico": "24837389",
+          "dic": "2022276800",
+          "icDph": "SK2022735060",
+          "email": "info@swiftlog.test"
+        }
+      },
+      {
+        "id": "70e048c5-9cd1-415b-9376-58f71a764111",
+        "data": {
+          "id": "70e048c5-9cd1-415b-9376-58f71a764111",
+          "name": "BrightWeb Ltd.",
+          "addressLine1": "Sample St. 31",
+          "city": "Žilina",
+          "zip": "000 00",
+          "country": "Slovakia",
+          "ico": "99748864",
+          "dic": "2022239228",
+          "icDph": "SK2022519322",
+          "email": "info@brightweb.test"
+        }
+      },
+      {
+        "id": "74555b17-c35b-450a-9e53-7c700f9040cb",
+        "data": {
+          "id": "74555b17-c35b-450a-9e53-7c700f9040cb",
+          "name": "BrightWeb Ltd.",
+          "addressLine1": "Sample St. 92",
+          "city": "Žilina",
+          "zip": "000 00",
+          "country": "Slovakia",
+          "ico": "19106086",
+          "dic": "2022755705",
+          "icDph": "SK2022395255",
+          "email": "info@brightweb.test"
+        }
+      },
+      {
+        "id": "7h6rat1rv",
+        "data": {
+          "id": "7h6rat1rv",
+          "name": "isa",
+          "addressLine1": "",
+          "addressLine2": "",
+          "city": "",
+          "zip": "",
+          "country": "Slovakia",
+          "ico": "",
+          "dic": "",
+          "icDph": "",
+          "email": "isa/ss"
+        }
+      },
+      {
+        "id": "8b5ebfc2-57cb-467d-a3d5-a3c47efdb67f",
+        "data": {
+          "id": "8b5ebfc2-57cb-467d-a3d5-a3c47efdb67f",
+          "name": "GreenLeaf Ltd.",
+          "addressLine1": "Sample St. 9",
+          "city": "Košice",
+          "zip": "000 00",
+          "country": "Slovakia",
+          "ico": "61534477",
+          "dic": "2022823380",
+          "icDph": "SK2022154721",
+          "email": "info@greenleaf.test"
+        }
+      },
+      {
+        "id": "91b6e809-f248-4279-8bf2-69046257da6f",
+        "data": {
+          "id": "91b6e809-f248-4279-8bf2-69046257da6f",
+          "name": "SwiftLog Ltd.",
+          "addressLine1": "Sample St. 10",
+          "city": "Nitra",
+          "zip": "000 00",
+          "country": "Slovakia",
+          "ico": "6596721",
+          "dic": "2022984384",
+          "icDph": "SK2022777959",
+          "email": "info@swiftlog.test"
+        }
+      },
+      {
+        "id": "946e20b6-8166-44e5-a3af-4fcecf0e1814",
+        "data": {
+          "id": "946e20b6-8166-44e5-a3af-4fcecf0e1814",
+          "name": "TechSol s.r.o.",
+          "addressLine1": "Sample St. 67",
+          "city": "Bratislava",
+          "zip": "000 00",
+          "country": "Slovakia",
+          "ico": "33323839",
+          "dic": "2022245436",
+          "icDph": "SK2022719718",
+          "email": "info@techsol.test"
+        }
+      },
+      {
+        "id": "96e0e998-1cd6-4511-be48-fd081e7f231d",
+        "data": {
+          "id": "96e0e998-1cd6-4511-be48-fd081e7f231d",
+          "name": "GreenLeaf Ltd.",
+          "addressLine1": "Sample St. 85",
+          "city": "Košice",
+          "zip": "000 00",
+          "country": "Slovakia",
+          "ico": "60097373",
+          "dic": "2022427720",
+          "icDph": "SK2022894315",
+          "email": "info@greenleaf.test"
+        }
+      },
+      {
+        "id": "a41e46e6-8207-45d7-b14e-be5a3dc7aac4",
+        "data": {
+          "id": "a41e46e6-8207-45d7-b14e-be5a3dc7aac4",
+          "name": "GreenLeaf Ltd.",
+          "addressLine1": "Sample St. 4",
+          "city": "Košice",
+          "zip": "000 00",
+          "country": "Slovakia",
+          "ico": "9901822",
+          "dic": "2022124853",
+          "icDph": "SK202242853",
+          "email": "info@greenleaf.test"
+        }
+      },
+      {
+        "id": "b2dad882-b8de-4243-9210-e5cfe162de6f",
+        "data": {
+          "id": "b2dad882-b8de-4243-9210-e5cfe162de6f",
+          "name": "LegalEase s.r.o.",
+          "addressLine1": "Sample St. 68",
+          "city": "Trnava",
+          "zip": "000 00",
+          "country": "Slovakia",
+          "ico": "7300687",
+          "dic": "2022148163",
+          "icDph": "SK2022557216",
+          "email": "info@legalease.test"
+        }
+      },
+      {
+        "id": "c2b4e5d3-604b-4747-bfa9-1493306b8b6f",
+        "data": {
+          "id": "c2b4e5d3-604b-4747-bfa9-1493306b8b6f",
+          "name": "BrightWeb Ltd.",
+          "addressLine1": "Sample St. 40",
+          "city": "Žilina",
+          "zip": "000 00",
+          "country": "Slovakia",
+          "ico": "36665685",
+          "dic": "2022666696",
+          "icDph": "SK2022620055",
+          "email": "info@brightweb.test"
+        }
+      },
+      {
+        "id": "de2dbf00-ef07-432f-b6e6-10944bebfef1",
+        "data": {
+          "id": "de2dbf00-ef07-432f-b6e6-10944bebfef1",
+          "name": "LegalEase Ltd.",
+          "addressLine1": "Sample St. 95",
+          "city": "Trnava",
+          "zip": "000 00",
+          "country": "Slovakia",
+          "ico": "51736255",
+          "dic": "2022506623",
+          "icDph": "SK2022724430",
+          "email": "info@legalease.test"
+        }
+      },
+      {
+        "id": "e3b4d759-19ef-484a-94fb-a939c75f0066",
+        "data": {
+          "id": "e3b4d759-19ef-484a-94fb-a939c75f0066",
+          "name": "TechSol Ltd.",
+          "addressLine1": "Sample St. 31",
+          "city": "Bratislava",
+          "zip": "000 00",
+          "country": "Slovakia",
+          "ico": "13834540",
+          "dic": "2022937562",
+          "icDph": "SK2022192673",
+          "email": "info@techsol.test"
+        }
+      },
+      {
+        "id": "f2b4a331-959f-4a52-a3e1-f0ec500549fc",
+        "data": {
+          "id": "f2b4a331-959f-4a52-a3e1-f0ec500549fc",
+          "name": "TechSol Ltd.",
+          "addressLine1": "Sample St. 86",
+          "city": "Bratislava",
+          "zip": "000 00",
+          "country": "Slovakia",
+          "ico": "65328992",
+          "dic": "2022978304",
+          "icDph": "SK2022356786",
+          "email": "info@techsol.test"
+        }
+      },
+      {
+        "id": "f31fd598-5320-4200-88c9-a0839af8e592",
+        "data": {
+          "id": "f31fd598-5320-4200-88c9-a0839af8e592",
+          "name": "GreenLeaf s.r.o.",
+          "addressLine1": "Sample St. 94",
+          "city": "Košice",
+          "zip": "000 00",
+          "country": "Slovakia",
+          "ico": "22735130",
+          "dic": "202263448",
+          "icDph": "SK2022822906",
+          "email": "info@greenleaf.test"
+        }
+      },
+      {
+        "id": "f9f75963-6c1d-4f43-a8ac-716e67985175",
+        "data": {
+          "id": "f9f75963-6c1d-4f43-a8ac-716e67985175",
+          "name": "TechSol s.r.o.",
+          "addressLine1": "Sample St. 14",
+          "city": "Bratislava",
+          "zip": "000 00",
+          "country": "Slovakia",
+          "ico": "76597544",
+          "dic": "2022648560",
+          "icDph": "SK2022324375",
+          "email": "info@techsol.test"
+        }
+      },
+      {
+        "id": "fd276e08-3a8a-42f9-8015-83e4b9ac584c",
+        "data": {
+          "id": "fd276e08-3a8a-42f9-8015-83e4b9ac584c",
+          "name": "LegalEase Ltd.",
+          "addressLine1": "Sample St. 26",
+          "city": "Trnava",
+          "zip": "000 00",
+          "country": "Slovakia",
+          "ico": "32475997",
+          "dic": "2022351755",
+          "icDph": "SK2022751723",
+          "email": "info@legalease.test"
+        }
+      },
+      {
+        "id": "fdf649fe-cac0-49e2-a75c-c6826a2954fd",
+        "data": {
+          "id": "fdf649fe-cac0-49e2-a75c-c6826a2954fd",
+          "name": "LegalEase s.r.o.",
+          "addressLine1": "Sample St. 6",
+          "city": "Trnava",
+          "zip": "000 00",
+          "country": "Slovakia",
+          "ico": "64053549",
+          "dic": "2022491370",
+          "icDph": "SK2022697335",
+          "email": "info@legalease.test"
+        }
+      },
+      {
+        "id": "fe84d66e-dafb-436e-9278-a9c4551b3165",
+        "data": {
+          "id": "fe84d66e-dafb-436e-9278-a9c4551b3165",
+          "name": "BrightWeb s.r.o.",
+          "addressLine1": "Sample St. 11",
+          "city": "Žilina",
+          "zip": "000 00",
+          "country": "Slovakia",
+          "ico": "13416413",
+          "dic": "2022954240",
+          "icDph": "SK2022465690",
+          "email": "info@brightweb.test"
+        }
+      },
+      {
+        "id": "nb1l6sfju",
+        "data": {
+          "id": "nb1l6sfju",
+          "name": "isa",
+          "addressLine1": "",
+          "addressLine2": "",
+          "city": "",
+          "zip": "",
+          "country": "Slovakia",
+          "ico": "",
+          "dic": "",
+          "icDph": "",
+          "email": ""
+        }
+      }
+    ],
+    "expenses": [],
+    "quotes": [],
+    "products": []
+  }
+]

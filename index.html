@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Lucilla CRM</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          colors: {
+            brand: {
+              DEFAULT: '#B8BFC6',
+              50: '#F5F7F8',
+              100: '#EBEEF0',
+              200: '#D3DAE0',
+              300: '#B8BFC6',
+              400: '#9DA7B1', // Primary Silver
+              500: '#828E9C',
+              600: '#677587',
+              700: '#4C5C72',
+              800: '#31435D',
+              900: '#162A48',
+            },
+            slate: {
+              ...tailwind.colors?.slate,
+              800: '#111111', // Card Background
+              900: '#050505', // Main Background
+              950: '#000000',
+            }
+          },
+          fontFamily: {
+            sans: ['Inter', 'sans-serif'],
+            display: ['Outfit', 'sans-serif'],
+            outfit: ['Outfit', 'sans-serif'],
+          },
+          borderRadius: {
+            'none': '0',
+            'sm': '0px',
+            DEFAULT: '0px',
+            'md': '4px', // For cards
+            'lg': '8px',
+            'xl': '12px',
+            '2xl': '16px',
+            '3xl': '24px',
+            'full': '9999px',
+          }
+        },
+      },
+    }
+  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Outfit:wght@300;400;500;600;700;800;900&family=Great+Vibes&display=swap"
+    rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Inter', sans-serif;
+    }
+
+    /* Print styles to hide non-invoice elements */
+    @media print {
+      .no-print {
+        display: none !important;
+      }
+
+      .print-only {
+        display: block !important;
+      }
+
+      body {
+        background: white;
+        color: black;
+      }
+
+      #root {
+        margin: 0;
+        padding: 0;
+      }
+
+      /* Ensure dark mode doesn't affect print */
+      .dark body {
+        background: white;
+        color: black;
+      }
+    }
+  </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react-dom/": "https://esm.sh/react-dom@^19.2.3/",
+    "@google/genai": "https://esm.sh/@google/genai@^1.33.0",
+    "react/": "https://esm.sh/react@^19.2.3/",
+    "react": "https://esm.sh/react@^19.2.3",
+    "recharts": "https://esm.sh/recharts@^3.5.1",
+    "lucide-react": "https://esm.sh/lucide-react@^0.561.0"
+  }
+}
+</script>
+  <link rel="stylesheet" href="/index.css">
+</head>
+
+<body class="bg-gray-50 text-slate-900 antialiased dark:bg-slate-950 dark:text-slate-50 transition-colors duration-300">
+  <div id="root"></div>
+  <script type="module" src="/index.tsx"></script>
+</body>
+
+</html>

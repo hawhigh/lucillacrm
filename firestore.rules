@@ -1,0 +1,42 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    
+    // Helper to check if user is admin
+    function isAdmin() {
+      let userDoc = get(/databases/$(database)/documents/users/$(request.auth.uid));
+      return userDoc != null && userDoc.data.role == 'admin';
+    }
+
+    // Helper to check if user is accountant
+    function isAccountant() {
+      let userDoc = get(/databases/$(database)/documents/users/$(request.auth.uid));
+      return userDoc != null && userDoc.data.role == 'accountant';
+    }
+
+    // Accountant Role: Read Only
+    match /{document=**} {
+      allow read: if isAccountant();
+      allow write: if false; 
+    }
+
+
+
+    // Admins can do everything
+    match /users/{userId}/{document=**} {
+      allow read, write: if isAdmin();
+    }
+
+    // Users collection
+    match /users/{userId} {
+      allow read, write: if request.auth.uid == userId || isAdmin();
+      
+      // Subcollections (invoices, customers, expenses)
+      // Subcollections (invoices, customers, expenses, quotes, products)
+      match /{collection}/{document=**} {
+        allow read: if (request.auth.uid == userId || isAdmin() || (collection == 'invoices' && isAccountant()) || (collection == 'expenses' && isAccountant()) || (collection == 'quotes' && isAccountant()) || (collection == 'products' && isAccountant()));
+        allow write: if (request.auth.uid == userId || isAdmin()) && !isAccountant();
+      }
+    }
+  }
+}

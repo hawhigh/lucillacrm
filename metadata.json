@@ -1,0 +1,5 @@
+{
+  "name": "Lucilla CRM",
+  "description": "A comprehensive CRM and Invoice management system featuring AI-powered invoice generation, SEPA QR code support, and customer management.",
+  "requestFramePermissions": []
+}

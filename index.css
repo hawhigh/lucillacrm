@@ -1,0 +1,128 @@
+:root {
+    --primary-color: #C5A059;
+    --primary-color-rgb: 197, 160, 89;
+    --background-color: #ffffff;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    background-color: var(--background-color);
+    color: #0f172a;
+}
+
+/* Minimalist Overrides */
+
+/* Inputs should have high contrast */
+input,
+select,
+textarea {
+    color: #0f172a !important;
+    background-color: #ffffff !important;
+}
+
+/* Smoother transitions */
+* {
+    transition-property: background-color, border-color, color, fill, stroke, opacity, box-shadow, transform;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 300ms;
+}
+
+/* Scrollbar polish */
+::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #cbd5e1;
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #94a3b8;
+}
+
+/* Brand Utilities */
+.bg-brand {
+    background-color: var(--primary-color) !important;
+}
+
+.text-brand {
+    color: var(--primary-color) !important;
+}
+
+.border-brand {
+    border-color: var(--primary-color) !important;
+}
+
+.bg-brand-light {
+    background-color: rgba(var(--primary-color-rgb), 0.1) !important;
+}
+
+.hover-bg-brand:hover {
+    background-color: var(--primary-color) !important;
+}
+
+.from-brand {
+    --tw-gradient-from: var(--primary-color) !important;
+    --tw-gradient-to: rgba(var(--primary-color-rgb), 0) !important;
+    --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to) !important;
+}
+
+.to-brand {
+    --tw-gradient-to: var(--primary-color) !important;
+}
+
+.shadow-brand {
+    --tw-shadow-color: rgba(var(--primary-color-rgb), 0.3) !important;
+    --tw-shadow: var(--tw-shadow-colored) !important;
+}
+
+/* Remove ugly focus outlines, replace with ring */
+*:focus-visible {
+    outline: none;
+    box-shadow: 0 0 0 2px rgba(var(--primary-color-rgb), 0.5);
+}
+
+@media print {
+
+    /* Hide everything by default */
+    body * {
+        visibility: hidden;
+    }
+
+    /* Unhide the invoice wrapper and all its children */
+    #invoice-content,
+    #invoice-content * {
+        visibility: visible;
+    }
+
+    /* Position the invoice at the top-left */
+    #invoice-content {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100% !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        z-index: 9999;
+        background: white;
+    }
+
+    /* Ensure body doesn't interfere */
+    body {
+        margin: 0;
+        padding: 0;
+        background: white;
+    }
+
+    @page {
+        margin: 0;
+        size: auto;
+    }
+}
