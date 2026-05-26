@@ -173,7 +173,8 @@ const App = () => {
       specificSymbol: '',
       items: [],
       notes: 'Invoice is due within 14 days.',
-      status: 'Draft'
+      status: 'Draft',
+      introText: ''
     });
     setView('create');
   };

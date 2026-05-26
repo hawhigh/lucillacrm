@@ -127,6 +127,7 @@ export interface Invoice {
   recurringFrequency?: 'monthly' | 'quarterly' | 'none';
   lastGenerated?: string; // YYYY-MM-DD
   referenceNumber?: string;
+  introText?: string;
 }
 
 export interface Expense {

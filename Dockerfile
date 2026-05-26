@@ -16,14 +16,14 @@ COPY . .
 RUN npm run build
 
 # Production stage
-FROM nginx:stable-alpine
+FROM caddy:2-alpine
 
-# Copy the custom nginx configuration
-COPY nginx.conf /etc/nginx/conf.d/default.conf
+# Copy the build output to the server directory
+COPY --from=build /app/dist /srv
 
-# Copy the build output to the nginx html directory
-COPY --from=build /app/dist /usr/share/nginx/html
+# Copy the Caddyfile
+COPY Caddyfile /etc/caddy/Caddyfile
 
 EXPOSE 80
 
-CMD ["nginx", "-g", "daemon off;"]
+CMD ["caddy", "run", "--config", "/etc/caddy/Caddyfile", "--adapter", "caddyfile"]

@@ -696,6 +696,20 @@ const InvoiceForm: React.FC<InvoiceFormProps> = ({ initialInvoice, customers, pr
 
                 <hr className="border-slate-100 dark:border-slate-800" />
 
+                {/* Introductory Text */}
+                <section className="bg-slate-50/50 dark:bg-slate-900/30 p-6 rounded-2xl border border-slate-200 dark:border-slate-800">
+                    <label className={labelClass}>{t('introText')}</label>
+                    <textarea
+                        rows={2}
+                        value={invoice.introText || ''}
+                        onChange={e => updateField('introText', e.target.value)}
+                        className={`${baseInputClass} h-auto min-h-[60px] py-2.5`}
+                        placeholder={t('introTextPlaceholder')}
+                    />
+                </section>
+
+                <hr className="border-slate-100 dark:border-slate-800" />
+
                 {/* 4. Line Items */}
                 <section>
                     <div className="flex flex-col md:flex-row justify-between items-start md:items-center mb-6 gap-4">

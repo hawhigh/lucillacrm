@@ -341,6 +341,13 @@ const InvoicePreview: React.FC<InvoicePreviewProps> = ({ invoice, settings, isDr
                             </div>
                         </div>
 
+                        {/* Introductory Text */}
+                        {invoice.introText && (
+                            <div className="mb-6 text-xs text-slate-600 leading-relaxed whitespace-pre-wrap italic border-l-2 border-slate-200 pl-4 py-1 page-break-inside-avoid">
+                                {invoice.introText}
+                            </div>
+                        )}
+
                         {/* 3. Items Table */}
                         <div className="mb-4 flex-1">
                             {/* Table Header */}

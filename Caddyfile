@@ -1,0 +1,36 @@
+:80 {
+    root * /srv
+    encode gzip zstd
+
+    # Cache static assets but prevent caching of index.html
+    @static {
+        path *.ico *.css *.js *.gif *.jpg *.jpeg *.png *.woff *.woff2 *.eot *.ttf *.svg *.mp4 *.webm
+    }
+    header @static Cache-Control "public, max-age=15552000"
+
+    @notStatic {
+        not path *.ico *.css *.js *.gif *.jpg *.jpeg *.png *.woff *.woff2 *.eot *.ttf *.svg *.mp4 *.webm
+    }
+    header @notStatic Cache-Control "no-cache, no-store, must-revalidate"
+
+    # Proxy for Finstat API
+    handle_path /finstat-api/* {
+        reverse_proxy https://www.finstat.sk {
+            header_up Host www.finstat.sk
+            header_up User-Agent "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+            header_up Accept "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8"
+            header_up Accept-Language "sk-SK,sk;q=0.9,en-US;q=0.8,en;q=0.7"
+            header_up X-Real-IP {remote_host}
+            header_up X-Forwarded-For {remote_host}
+            transport http {
+                tls_server_name www.finstat.sk
+                tls_insecure_skip_verify
+            }
+        }
+    }
+
+    # Fallback to index.html for React Router
+    try_files {path} {path}/ /index.html
+
+    file_server
+}

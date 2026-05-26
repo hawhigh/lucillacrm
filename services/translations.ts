@@ -165,6 +165,8 @@ export const translations = {
         issuedBy: "Issued by",
         invoiceNumberShort: "Inv. No.",
         registrationNumber: "Business Register Details",
+        introText: "Introductory Text",
+        introTextPlaceholder: "Brief introduction or description displayed above items...",
     },
     sk: {
         dashboard: "Prehľad",
@@ -331,6 +333,8 @@ export const translations = {
         issuedBy: "Vyhotovil",
         invoiceNumberShort: "Č. faktúry",
         registrationNumber: "Zápis v registri",
+        introText: "Úvodný text",
+        introTextPlaceholder: "Krátky úvodný popis zobrazený nad položkami...",
     },
     de: {
         dashboard: "Dashboard",
@@ -492,6 +496,8 @@ export const translations = {
         page: "Seite",
         invoiceNumberShort: "Rechnung Nr.",
         registrationNumber: "Firmenregisternummer",
+        introText: "Einleitungstext",
+        introTextPlaceholder: "Kurze Einführung oder Beschreibung über den Positionen...",
     }
 };
 
