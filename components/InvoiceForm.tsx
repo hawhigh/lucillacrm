@@ -15,16 +15,16 @@ interface InvoiceFormProps {
 }
 
 const UNIT_OPTIONS = [
-    { value: 'ks', label: 'ks (pcs)' },
-    { value: 'h', label: 'hod (hours)' },
-    { value: 'm', label: 'm (meters)' },
+    { value: 'ks', label: 'pcs' },
+    { value: 'h', label: 'hours' },
+    { value: 'm', label: 'meters' },
     { value: 'm2', label: 'm²' },
     { value: 'kg', label: 'kg' },
     { value: 'km', label: 'km' },
-    { value: 'bal', label: 'bal (pkg)' },
-    { value: 'mes', label: 'mes (mo)' },
+    { value: 'bal', label: 'pkg' },
+    { value: 'mes', label: 'mo' },
     { value: 'set', label: 'set' },
-    { value: 'den', label: 'den (day)' },
+    { value: 'den', label: 'day' },
 ];
 
 const PAYMENT_METHODS = [

@@ -10,6 +10,24 @@ interface InvoicePreviewProps {
     isDraft?: boolean;
 }
 
+const formatUnit = (unit: string): string => {
+    const unitMap: Record<string, string> = {
+        'ks': 'pcs',
+        'hod': 'hours',
+        'h': 'hours',
+        'den': 'days',
+        'm': 'm',
+        'm2': 'm²',
+        'kg': 'kg',
+        'km': 'km',
+        'bal': 'pkg',
+        'mes': 'mo',
+        'paušál': 'flat fee',
+        'set': 'set'
+    };
+    return unitMap[unit] || unit;
+};
+
 const InvoicePreview: React.FC<InvoicePreviewProps> = ({ invoice, settings, isDraft }) => {
     console.log('Rendering InvoicePreview v16');
     const { language, setLanguage } = useAppStore();
@@ -367,7 +385,7 @@ const InvoicePreview: React.FC<InvoicePreviewProps> = ({ invoice, settings, isDr
                                         <span className="text-slate-400 font-mono">{String(i + 1).padStart(2, '0')}</span>
                                         <div className="font-semibold text-slate-800 pr-2">{item.description}</div>
                                         <div className="text-right font-medium">{item.quantity}</div>
-                                        <div className="text-center text-slate-500">{item.unit}</div>
+                                        <div className="text-center text-slate-500">{formatUnit(item.unit)}</div>
                                         <div className="text-right font-medium">{formatCurrency(item.unitPrice).replace('€', '').trim()}</div>
                                         <div className="text-right font-medium text-slate-500">{item.vatRate}%</div>
                                         <div className="text-right font-bold text-slate-900">{formatCurrency(item.quantity * item.unitPrice).replace('€', '').trim()}</div>

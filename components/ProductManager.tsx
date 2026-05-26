@@ -13,6 +13,24 @@ interface Props {
 type SortField = 'name' | 'unitPrice' | 'sku' | 'vatRate';
 type SortOrder = 'asc' | 'desc';
 
+const formatUnit = (unit: string): string => {
+    const unitMap: Record<string, string> = {
+        'ks': 'pcs',
+        'hod': 'hours',
+        'h': 'hours',
+        'den': 'days',
+        'm': 'm',
+        'm2': 'm²',
+        'kg': 'kg',
+        'km': 'km',
+        'bal': 'pkg',
+        'mes': 'mo',
+        'paušál': 'flat fee',
+        'set': 'set'
+    };
+    return unitMap[unit] || unit;
+};
+
 const ProductManager: React.FC<Props> = ({ products, onSave, onDelete }) => {
     const { t } = useAppStore();
     const [isEditing, setIsEditing] = useState(false);
@@ -149,12 +167,12 @@ const ProductManager: React.FC<Props> = ({ products, onSave, onDelete }) => {
                             onChange={e => setCurrentProduct({ ...currentProduct, unit: e.target.value })}
                             className={inputClass}
                         >
-                            <option value="ks">ks (pcs)</option>
-                            <option value="hod">hod (hours)</option>
-                            <option value="den">den (days)</option>
-                            <option value="m2">m2</option>
+                            <option value="ks">pcs</option>
+                            <option value="hod">hours</option>
+                            <option value="den">days</option>
+                            <option value="m2">m²</option>
                             <option value="kg">kg</option>
-                            <option value="paušál">paušál (flat fee)</option>
+                            <option value="paušál">flat fee</option>
                         </select>
                     </div>
 
@@ -263,7 +281,7 @@ const ProductManager: React.FC<Props> = ({ products, onSave, onDelete }) => {
                                             <div className="text-xs text-slate-500 line-clamp-1">{product.description}</div>
                                         </td>
                                         <td className="px-8 py-5 text-slate-600 dark:text-slate-400 font-mono">
-                                            {product.unitPrice.toFixed(2)} € / {product.unit}
+                                            {product.unitPrice.toFixed(2)} € / {formatUnit(product.unit)}
                                         </td>
                                         <td className="px-8 py-5">
                                             <span className="text-xs font-bold text-emerald-600 dark:text-emerald-400">
