@@ -440,7 +440,7 @@ const CustomerManager: React.FC<Props> = ({ customers, onSave, onDelete }) => {
 
                     <div className="col-span-2 bg-slate-50 dark:bg-slate-800/50 p-6 rounded-2xl border border-slate-100 dark:border-slate-800 transition-colors">
                         <h3 className="text-sm font-bold text-slate-800 dark:text-white mb-6 uppercase tracking-wider">{t('businessRegistration')}</h3>
-                        <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+                        <div className="grid grid-cols-1 sm:grid-cols-4 gap-6">
                             <div>
                                 <div className="flex gap-2">
                                     <input
@@ -493,6 +493,14 @@ const CustomerManager: React.FC<Props> = ({ customers, onSave, onDelete }) => {
                                 <input
                                     value={currentCustomer.icDph}
                                     onChange={e => setCurrentCustomer({ ...currentCustomer, icDph: e.target.value })}
+                                    className={inputClass}
+                                />
+                            </div>
+                            <div>
+                                <label className={labelClass}>{t('aemakAmmNumber')}</label>
+                                <input
+                                    value={currentCustomer.aemakAmmNumber || ''}
+                                    onChange={e => setCurrentCustomer({ ...currentCustomer, aemakAmmNumber: e.target.value })}
                                     className={inputClass}
                                 />
                             </div>

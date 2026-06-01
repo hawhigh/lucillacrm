@@ -386,7 +386,7 @@ const SettingsManager: React.FC<Props> = ({ supplier, onSaveSupplier, settings, 
                             </div>
                             <h3 className="text-xl font-bold text-slate-900 dark:text-white">Registration Details</h3>
                         </div>
-                        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+                        <div className="grid grid-cols-1 md:grid-cols-4 gap-6">
                             <div className="md:col-span-1">
                                 <label className={labelClass}>ICO (Reg ID)</label>
                                 <input
@@ -411,7 +411,15 @@ const SettingsManager: React.FC<Props> = ({ supplier, onSaveSupplier, settings, 
                                     className={inputClass}
                                 />
                             </div>
-                            <div className="col-span-1 md:col-span-3">
+                            <div className="md:col-span-1">
+                                <label className={labelClass}>AEMAK-AMM Number</label>
+                                <input
+                                    value={formData.aemakAmmNumber || ''}
+                                    onChange={(e) => handleChange('aemakAmmNumber', e.target.value)}
+                                    className={inputClass}
+                                />
+                            </div>
+                            <div className="col-span-1 md:col-span-4">
                                 <label className={labelClass}>Legal Registry Reference (OR)</label>
                                 <input
                                     value={formData.businessRegisterInfo || ''}

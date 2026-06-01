@@ -19,6 +19,7 @@ export interface Customer {
   ico: string; // ID
   dic: string; // TAX ID
   icDph: string; // VAT ID
+  aemakAmmNumber?: string;
   email: string;
   registrationNumber?: string; // Company Registration Number (e.g. from Business Register)
   logo?: string; // Base64 image
@@ -49,6 +50,7 @@ export interface Supplier {
   ico: string;
   dic: string;
   icDph: string;
+  aemakAmmNumber?: string;
   bankName: string;
   iban: string;
   swift: string;

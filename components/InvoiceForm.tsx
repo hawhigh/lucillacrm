@@ -548,7 +548,7 @@ const InvoiceForm: React.FC<InvoiceFormProps> = ({ initialInvoice, customers, pr
                                     className={baseInputClass}
                                 />
                             </div>
-                            <div className="grid grid-cols-3 gap-4 border-t border-slate-100 pt-4">
+                            <div className="grid grid-cols-4 gap-4 border-t border-slate-100 pt-4">
                                 <div>
                                     <label className={labelClass}>{t('ico')}</label>
                                     <input value={invoice.supplier.ico} onChange={e => updateSupplier('ico', e.target.value)} className={baseInputClass} />
@@ -560,6 +560,10 @@ const InvoiceForm: React.FC<InvoiceFormProps> = ({ initialInvoice, customers, pr
                                 <div>
                                     <label className={labelClass}>{t('icDph')}</label>
                                     <input value={invoice.supplier.icDph} onChange={e => updateSupplier('icDph', e.target.value)} className={baseInputClass} />
+                                </div>
+                                <div>
+                                    <label className={labelClass}>{t('aemakAmmNumber')}</label>
+                                    <input value={invoice.supplier.aemakAmmNumber || ''} onChange={e => updateSupplier('aemakAmmNumber', e.target.value)} className={baseInputClass} />
                                 </div>
                             </div>
                         </div>
@@ -622,7 +626,7 @@ const InvoiceForm: React.FC<InvoiceFormProps> = ({ initialInvoice, customers, pr
                                     className={baseInputClass}
                                 />
                             </div>
-                            <div className="grid grid-cols-3 gap-4 border-t border-slate-100 pt-4">
+                            <div className="grid grid-cols-4 gap-4 border-t border-slate-100 pt-4">
                                 <div>
                                     <label className={labelClass}>{t('ico')}</label>
                                     <input value={invoice.customer.ico} onChange={e => updateCustomer('ico', e.target.value)} className={baseInputClass} />
@@ -634,6 +638,10 @@ const InvoiceForm: React.FC<InvoiceFormProps> = ({ initialInvoice, customers, pr
                                 <div>
                                     <label className={labelClass}>{t('icDph')}</label>
                                     <input value={invoice.customer.icDph} onChange={e => updateCustomer('icDph', e.target.value)} className={baseInputClass} />
+                                </div>
+                                <div>
+                                    <label className={labelClass}>{t('aemakAmmNumber')}</label>
+                                    <input value={invoice.customer.aemakAmmNumber || ''} onChange={e => updateCustomer('aemakAmmNumber', e.target.value)} className={baseInputClass} />
                                 </div>
                             </div>
                         </div>

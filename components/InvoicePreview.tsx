@@ -279,6 +279,12 @@ const InvoicePreview: React.FC<InvoicePreviewProps> = ({ invoice, settings, isDr
                                                 <td style={{ width: '160px', color: '#374151', fontWeight: 'bold', verticalAlign: 'top', whiteSpace: 'nowrap', paddingBottom: '3px' }}>{t.icDph}:</td>
                                                 <td style={{ color: '#374151', verticalAlign: 'top', paddingLeft: '8px' }}>{invoice.supplier.icDph}</td>
                                             </tr>
+                                            {invoice.supplier.aemakAmmNumber && (
+                                                <tr>
+                                                    <td style={{ width: '160px', color: '#374151', fontWeight: 'bold', verticalAlign: 'top', whiteSpace: 'nowrap', paddingBottom: '3px' }}>{t.aemakAmmNumber}:</td>
+                                                    <td style={{ color: '#374151', verticalAlign: 'top', paddingLeft: '8px' }}>{invoice.supplier.aemakAmmNumber}</td>
+                                                </tr>
+                                            )}
                                         </tbody>
                                     </table>
                                 </div>
@@ -308,6 +314,12 @@ const InvoicePreview: React.FC<InvoicePreviewProps> = ({ invoice, settings, isDr
                                                 <td style={{ width: '160px', color: '#374151', fontWeight: 'bold', verticalAlign: 'top', whiteSpace: 'nowrap', paddingBottom: '3px' }}>{t.icDph}:</td>
                                                 <td style={{ color: '#374151', verticalAlign: 'top', paddingLeft: '8px' }}>{invoice.customer.icDph || '-'}</td>
                                             </tr>
+                                            {invoice.customer.aemakAmmNumber && (
+                                                <tr>
+                                                    <td style={{ width: '160px', color: '#374151', fontWeight: 'bold', verticalAlign: 'top', whiteSpace: 'nowrap', paddingBottom: '3px' }}>{t.aemakAmmNumber}:</td>
+                                                    <td style={{ color: '#374151', verticalAlign: 'top', paddingLeft: '8px' }}>{invoice.customer.aemakAmmNumber}</td>
+                                                </tr>
+                                            )}
                                         </tbody>
                                     </table>
                                 </div>
@@ -438,7 +450,7 @@ const InvoicePreview: React.FC<InvoicePreviewProps> = ({ invoice, settings, isDr
 
                                 {/* Terms */}
                                 <div className="mt-6 p-4 bg-amber-50 rounded-xl border border-amber-100 italic text-[11px] text-[#8C7648] leading-relaxed">
-                                    <p>Thank you for your business. Please make the payment by the due date mentioned above.</p>
+                                    <p>{invoice.notes || "Thank you for your business. Please make the payment by the due date mentioned above."}</p>
                                 </div>
                             </div>
 
